@@ -1,0 +1,24 @@
+.card-item {
+    padding-bottom: 180px;
+}
+
+@font-face{ 
+    font-family: "SF Pro Display";
+    src: url("/static/fonts/SfProDisplay/SFPRODISPLAYREGULAR.OTF") format("truetype");
+    font-weight: 400;
+}
+
+@font-face{ 
+    font-family: "SF Pro Display";
+    src: url("/static/fonts/SfProDisplay/SFPRODISPLAYMEDIUM.OTF") format("truetype");
+    font-weight: 500;
+}
+
+@font-face{ 
+    font-family: "SF Pro Display";
+    src: url("/static/fonts/SfProDisplay/SFPRODISPLAYBOLD.OTF") format("truetype");
+    font-weight: 600;
+    font-style: bold;
+}
+
+

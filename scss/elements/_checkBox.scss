@@ -1,0 +1,21 @@
+.round-check-box {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	border: 2px solid #d1aa69;
+	border-radius: 100rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+
+	.round-check-show {
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		background: #edc92a 0% 0% no-repeat padding-box;
+		border-radius: 100rem;
+	}
+}

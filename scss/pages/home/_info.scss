@@ -1,0 +1,98 @@
+.ps-info-section {
+    background-image: url('/static/img/bg/section-3.png');
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+
+    .globe {
+        position: absolute;
+        right: 0;
+        top: 40px;
+        transform: translate(50%, 0);
+    }
+
+    .info-head {
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            text-align: center;
+            color: $color-heading;
+        }
+
+        margin-bottom: 50px;
+    }
+
+    .info-card-wrapper {
+        margin-bottom: 24px;
+        .title {
+            margin-bottom: 50px;
+            h2 {
+                background-image: linear-gradient(110deg, #5CE579 , #579CFE );
+                background-clip: text;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                text-align: center;
+                font-size: 48px;
+            }
+
+        }
+        .card-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+
+            .info-card {
+                background-color: #fff;
+                border-radius: 25px;
+                padding: 50px 35px;
+
+                .card-percent {
+                    font-size: 64px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .card-content {
+                    color: #333;
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+            }
+
+            .info-card:nth-child(1) {
+                .card-percent { 
+                    color: #0099FF
+                }
+            }
+
+            .info-card:nth-child(2) {
+                .card-percent { 
+                    color: #FF9518
+                }
+            }
+
+            .info-card:nth-child(3) {
+                .card-percent { 
+                    color: #00BB13
+                }
+            }
+        }
+    }
+
+    .info-footer {
+        
+        p {
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+}

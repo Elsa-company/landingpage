@@ -1,0 +1,111 @@
+.ps-page-partners {
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+
+    .ps-container {
+        >* {
+            padding-bottom: 50px;
+        }
+
+        .title-wrapper {
+            >* {
+                color: #1A2165;
+                font-weight: 600;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 22px;
+                font-family: 'Segoe UI', sans-serif;
+            }
+        }
+
+        .partners-wrapper {
+            display: grid;
+            grid-template-columns: calc(calc(100% / 2) - 25px) calc(calc(100% / 2) - 25px);
+            grid-template-rows: auto;
+            grid-column-gap: 50px;
+
+            .partners-info {
+                display: flex;
+                flex-direction: column;
+
+                .info-item {
+                    margin-bottom: 30px;
+
+                    .info-title {
+                        color: #050C4B;
+                        font-size: 28px;
+                        font-family: 'UTM Banque';
+                        text-align: left;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                    }
+
+                    .info-content {
+                        text-align: left;
+                        font-family: 'Segoe UI', sans-serif;
+                        font-size: 21px;
+                    }
+                }
+            }
+
+            .partners-form {
+                .ant-form-item-control {
+                    height: 60px;
+
+                    &-input {
+                        height: 100%;
+
+                        &-content {
+                            height: 100%;
+                            text-align: left;
+
+                            input {
+                                height: 100%;
+                                border-radius: 5px;
+                                border: 1px solid #707070 !important;
+
+                                &::placeholder {
+                                    font-family: 'Segoe UI', sans-serif;
+                                    color: #707070;
+                                }
+                            }
+
+                            textarea {
+                                border-radius: 5px;
+                                border: 1px solid #707070;
+
+                                &::placeholder {
+                                    font-family: 'Segoe UI', sans-serif;
+                                    color: #707070;
+                                }
+                            }
+
+                            label>span {
+                                font-family: 'Segoe UI', sans-serif;
+                                color: #050C4B;
+                            }
+
+                            button {
+                                line-height: 1.2;
+                                width: 100%;
+                                background: transparent linear-gradient(97deg, #050C4B 0%, #1A2165 53%, #050C4B 100%) 0% 0% no-repeat padding-box;
+                                color: #F8F8FB;
+                                font-size: 18px;
+                                font-family: 'Segoe UI',  sans-serif;
+                                border-radius: 10px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

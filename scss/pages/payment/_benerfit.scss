@@ -1,0 +1,89 @@
+.payment-benerfit {
+
+    max-width: 1300px;
+    padding: 80px 0;
+    .title-group {
+        text-align: center;
+
+        > * {
+            padding-bottom: 30px;
+        }
+        &__text {
+            color: #F3D191;
+            font-size: 38px;
+            // font-family: 'Segoe UI', sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        margin-bottom: 40px;
+
+    }
+    .benerfit-content {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+
+        &__left {
+            text-align: center;
+        }
+
+        &__right {
+            border-radius: 5px;
+            border: 1px solid #F3D191;
+            padding: 30px;
+
+            .content-title {
+                text-align: center;
+                color: #F3D191;
+                font-size: 26px;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+
+            .content-table {
+
+                > *  {
+                    margin-bottom: 10px;
+                }
+                &__item {
+                    .checkmark {
+                        display:inline-block;
+                        width: 25px;
+                        height:25px;
+                        -ms-transform: rotate(45deg); /* IE 9 */
+                        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+                        transform: rotate(45deg);
+                    }
+                    
+                    .checkmark_stem {
+                        position: absolute;
+                        width:3px;
+                        height:20px;
+                        background-color:#F3D191;
+                        left:11px;
+                        top:6px;
+                        border-radius: 2px;
+                    }
+                    
+                    .checkmark_kick {
+                        position: absolute;
+                        width:10px;
+                        height:3px;
+                        background-color:#F3D191;
+                        left:4px;
+                        bottom:-1px;
+                        border-radius: 2px;
+                    }
+                    > *  {
+                        font-family: 'Segoe UI', sans-serif;
+                    }
+                    font-family: 'Segoe UI', sans-serif;
+                    color: #F3D191;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}

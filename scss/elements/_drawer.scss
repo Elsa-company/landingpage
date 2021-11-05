@@ -1,0 +1,182 @@
+.profile-drawer {
+	.ant-drawer-content-wrapper {
+		top: 60px;
+		height: auto;
+		border-radius: 0 0 5px 5px;
+		overflow: hidden;
+		.ant-drawer-body {
+			padding: 0;
+			background-color: #030b52;
+			@include flex(center, center, column);
+		}
+	}
+
+	.profile-drawer__top {
+		width: 100%;
+		height: 167px;
+		background-color: #fff;
+
+		@include flex(center, center, column);
+		.top-grid__item-avt {
+			width: 70px;
+			height: 70px;
+			position: relative;
+
+			img {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 100rem;
+			}
+
+			i {
+				display: inline-block;
+				position: absolute;
+				bottom: 0px;
+				right: 5px;
+			}
+		}
+
+		.top-grid__item-name {
+			margin-top: 1rem;
+			> * {
+				font-weight: 600;
+				font-family: Segoe UI;
+				font-size: 12px;
+				color: #020a51;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.profile-drawer__bottom {
+		padding: 2rem 0;
+		height: auto;
+		width: 100%;
+		&-grid {
+			height: 338px;
+			display: grid;
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			justify-content: space-around;
+
+			.bottom-grid__item {
+				@include flex(flex-start);
+				span {
+					font-weight: 600;
+					font-family: Segoe UI;
+					font-size: 12px;
+					color: #fff;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.menu-drawer {
+	.ant-drawer-content-wrapper {
+		top: 60px;
+		height: auto;
+		border-radius: 0 0 5px 5px;
+		overflow: hidden;
+		.ant-drawer-body {
+			padding: 0;
+			background-color: #030b52;
+			@include flex(center, center, column);
+		}
+	}
+	.menu-drawer__top-grid {
+		padding-top: 1rem;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+		.top-grid__item {
+			@include flex();
+			margin: 1rem 0;
+
+			span {
+				cursor: pointer;
+				a {
+					color: #ffffff;
+				}
+				p {
+					color: #ffffff;
+				}
+			}
+		}
+	}
+
+	.menu-drawer__mid-grid {
+		width: 100%;
+		border-bottom: 1px solid #c29554;
+		border-top: 1px solid #c29554;
+
+		@include flex(center, center, column);
+		.mid-grid__title {
+			p {
+				font-family: Segoe UI;
+				font-size: 15px;
+				color: #ffffff;
+				margin: 0;
+				font-weight: bold;
+				margin-top: 3rem;
+			}
+		}
+		.mid-grid__email {
+			p {
+				font-family: Segoe UI;
+				font-size: 11px;
+				color: #ffffff;
+				margin: 0;
+				margin-top: 2rem;
+			}
+		}
+		.mid-grid__tel {
+			p {
+				font-family: Segoe UI;
+				font-size: 11px;
+				color: #ffffff;
+				margin: 0;
+				margin-top: 0.5rem;
+				b {
+					font-family: Segoe UI;
+					font-size: 11px;
+					color: #ffffff;
+				}
+			}
+		}
+		.mid-grid__address {
+			p {
+				font-family: Segoe UI;
+				font-size: 11px;
+				color: #ffffff;
+				margin-top: 0.5rem;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+
+	.menu-drawer__mid-bottom {
+		width: 100%;
+		height: auto;
+		.social {
+			width: 100%;
+			height: auto;
+			padding: 1.5rem 0 1rem 0;
+
+			display: grid;
+			grid-template-columns: 25px 25px 25px 25px;
+			justify-content: center;
+			align-items: center;
+			gap: 2rem;
+
+			a {
+				i {
+					font-size: 2rem;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

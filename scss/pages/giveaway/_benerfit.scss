@@ -1,0 +1,375 @@
+.ps-giveaway-section-benerfit {
+	max-width: 1300px;
+	padding: 80px 0;
+	.title-group {
+		text-align: center;
+
+		> * {
+			padding-bottom: 30px;
+		}
+		&__text {
+			color: #f3d191;
+			font-size: 38px;
+			// font-family: 'Segoe UI', sans-serif;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+
+		margin-bottom: 40px;
+	}
+	.benerfit-content {
+		display: grid;
+		grid-template-columns: 1fr 1.2fr;
+		grid-template-rows: 1fr;
+
+		&__left {
+			text-align: center;
+		}
+
+		&__right {
+			border-radius: 5px;
+			border: 1px solid #f3d191;
+			padding: 30px;
+
+			.content-title {
+				text-align: center;
+				color: #f3d191;
+				font-size: 26px;
+				text-transform: uppercase;
+				margin-bottom: 30px;
+				font-weight: 600;
+			}
+
+			.content-table {
+				> * {
+					margin-bottom: 10px;
+				}
+				&__item {
+					.checkmark {
+						display: inline-block;
+						width: 25px;
+						height: 25px;
+						-ms-transform: rotate(45deg); /* IE 9 */
+						-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+						transform: rotate(45deg);
+					}
+
+					.checkmark_stem {
+						position: absolute;
+						width: 3px;
+						height: 20px;
+						background-color: #f3d191;
+						left: 11px;
+						top: 6px;
+						border-radius: 2px;
+					}
+
+					.checkmark_kick {
+						position: absolute;
+						width: 10px;
+						height: 3px;
+						background-color: #f3d191;
+						left: 4px;
+						bottom: -1px;
+						border-radius: 2px;
+					}
+					> * {
+						font-family: 'Segoe UI', sans-serif;
+					}
+					font-family: 'Segoe UI', sans-serif;
+					color: #f3d191;
+					font-size: 21px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.ps-giveaway-section-benerfit {
+		max-width: 1000px;
+		padding: 60px 0;
+		.title-group {
+			> * {
+				padding-bottom: 20px;
+			}
+			&__text {
+				font-size: 25px;
+			}
+
+			margin-bottom: 30px;
+		}
+		.benerfit-content {
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
+
+			&__right {
+				padding: 20px;
+
+				.content-title {
+					font-size: 20px;
+					margin-bottom: 30px;
+				}
+
+				.content-table {
+					> * {
+						margin-bottom: 10px;
+					}
+					&__item {
+						.checkmark {
+							width: 25px;
+							height: 20px;
+						}
+
+						.checkmark_stem {
+							width: 2px;
+							height: 15px;
+							left: 13px;
+							top: 4px;
+						}
+
+						.checkmark_kick {
+							width: 10px;
+							height: 3px;
+							left: 4px;
+							bottom: -1px;
+						}
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.ps-giveaway-section-benerfit {
+		max-width: 740px;
+		padding: 60px 0;
+		.title-group {
+			> * {
+				padding-bottom: 20px;
+			}
+			&__text {
+				font-size: 25px;
+			}
+
+			margin-bottom: 30px;
+		}
+		.benerfit-content {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			gap: 5rem;
+
+			&__right {
+				padding: 20px;
+
+				.content-title {
+					font-size: 20px;
+					margin-bottom: 30px;
+				}
+
+				.content-table {
+					> * {
+						margin-bottom: 10px;
+					}
+					&__item {
+						.checkmark {
+							width: 25px;
+							height: 20px;
+						}
+
+						.checkmark_stem {
+							width: 2px;
+							height: 15px;
+							left: 13px;
+							top: 4px;
+						}
+
+						.checkmark_kick {
+							width: 10px;
+							height: 3px;
+							left: 4px;
+							bottom: -1px;
+						}
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-giveaway-section-benerfit {
+		max-width: 520px;
+		padding: 50px 0;
+		.title-group {
+			> * {
+				padding-bottom: 15px;
+			}
+			&__text {
+				font-size: 18px;
+			}
+
+			margin-bottom: 20px;
+		}
+		.benerfit-content {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			gap: 4rem;
+
+			&__right {
+				padding: 15px;
+
+				.content-title {
+					font-size: 19px;
+					margin-bottom: 25px;
+				}
+
+				.content-table {
+					> * {
+						margin-bottom: 10px;
+					}
+					&__item {
+						.checkmark {
+							width: 25px;
+							height: 20px;
+						}
+
+						.checkmark_stem {
+							width: 2px;
+							height: 15px;
+							left: 13px;
+							top: 4px;
+						}
+
+						.checkmark_kick {
+							width: 10px;
+							height: 3px;
+							left: 4px;
+							bottom: -1px;
+						}
+						font-size: 14.5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.ps-giveaway-section-benerfit {
+		max-width: 380px;
+		padding: 40px 0;
+		.title-group {
+			> * {
+				padding-bottom: 10px;
+			}
+			&__text {
+				font-size: 16px;
+			}
+
+			margin-bottom: 15px;
+		}
+		.benerfit-content {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			gap: 3rem;
+
+			&__right {
+				padding: 10px;
+
+				.content-title {
+					font-size: 17px;
+					margin-bottom: 25px;
+				}
+
+				.content-table {
+					> * {
+						margin-bottom: 10px;
+					}
+					&__item {
+						.checkmark {
+							width: 25px;
+							height: 20px;
+						}
+
+						.checkmark_stem {
+							width: 2px;
+							height: 15px;
+							left: 13px;
+							top: 4px;
+						}
+
+						.checkmark_kick {
+							width: 10px;
+							height: 3px;
+							left: 4px;
+							bottom: -1px;
+						}
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.ps-giveaway-section-benerfit {
+		max-width: 275px;
+		padding: 30px 0;
+		.title-group {
+			> * {
+				padding-bottom: 10px;
+			}
+			&__text {
+				font-size: 16px;
+			}
+
+			margin-bottom: 15px;
+		}
+		.benerfit-content {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			gap: 3rem;
+
+			&__right {
+				padding: 10px;
+
+				.content-title {
+					font-size: 17px;
+					margin-bottom: 25px;
+				}
+
+				.content-table {
+					> * {
+						margin-bottom: 10px;
+					}
+					&__item {
+						.checkmark {
+							width: 25px;
+							height: 15px;
+						}
+
+						.checkmark_stem {
+							width: 2px;
+							height: 10px;
+							left: 13px;
+							top: 4px;
+						}
+
+						.checkmark_kick {
+							width: 8px;
+							height: 3px;
+							left: 7px;
+							bottom: -1.5px;
+						}
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}

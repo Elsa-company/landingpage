@@ -1,0 +1,134 @@
+&__mygiveaway {
+	height: auto;
+
+	.mygiveaway__head {
+		font-weight: bold;
+		padding: 3rem 0rem 4rem 0rem;
+		h2 {
+			font-family: Segoe UI, sans-serif;
+			margin: 0;
+			font-size: 37px;
+			color: #090f44;
+			text-align: center;
+		}
+	}
+
+	.mygiveaway__body {
+		width: 100%;
+	}
+
+	.mygiveaway__grid {
+		display: grid;
+		grid-template-rows: 70px auto;
+		// row-gap: 20px;
+	}
+
+	.mygiveaway__title {
+		display: grid;
+		grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+
+		background: #ffffff 0% 0% no-repeat padding-box;
+		box-shadow: 5px 5px 20px #0000000A;
+		border-radius: 10px;
+
+		.title__item {
+			@include flex(center, center);
+			span {
+				font-family: Segoe UI, sans-serif;
+				margin: 0;
+				font-size: 21px;
+				color: #111859;
+				font-weight: 600;
+			}
+		}
+	}
+
+	.mygiveaway__list {
+		display: flex;
+		flex-direction: column;
+
+		.list-item {
+			height: 150px;
+			background: #ffffff 0% 0% no-repeat padding-box;
+			box-shadow: 5px 5px 20px #0000000A;
+			border-radius: 10px;
+			margin-top: 20px;
+
+			display: grid;
+			grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+
+			&__image {
+				@include flex(center, center);
+				img {
+					height: 100px;
+					width: 100px;
+					object-fit: cover;
+				}
+			}
+			&__name {
+				@include flex(center, center);
+				span {
+					font-family: Segoe UI, sans-serif;
+					margin: 0;
+					font-size: 21px;
+					color: #111859;
+					font-weight: 400;
+				}
+			}
+			&__status {
+				@include flex(center, center);
+				span {
+					border-radius: 5px;
+					font-family: Segoe UI, sans-serif;
+					margin: 0;
+					font-size: 16px;
+					font-weight: 400;
+					padding: 0px 2rem;
+				}
+
+				.live {
+					background: #bde7ff 0% 0% no-repeat padding-box;
+					color: #15519f;
+				}
+
+				.not-yet-open {
+					background: rgb(245, 227, 186) 0% 0% no-repeat padding-box;
+					color: #fdb614;
+				}
+
+				.close-red {
+					background: #fde4e4 0% 0% no-repeat padding-box;
+					color: #f46a6a;
+				}
+			}
+
+			&__drawdate {
+				@include flex(center, center);
+				span {
+					border-radius: 5px;
+					font-family: Segoe UI, sans-serif;
+					margin: 0;
+					font-size: 16px;
+					font-weight: 400;
+					padding: 0px 2rem;
+					color: #111859;
+				}
+			}
+
+			&__action {
+				@include flex(center, center);
+				span {
+					border-radius: 5px;
+					font-family: Segoe UI, sans-serif;
+					margin: 0;
+					font-size: 16px;
+					font-weight: 400;
+					padding: 0.5rem 1rem;
+					background-color: #556ee6;
+					color: white;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

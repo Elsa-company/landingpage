@@ -1,0 +1,116 @@
+.payment-form {
+
+    &__title {
+        text-align: center;
+        padding: 80px 0;
+
+        h2 {
+            color: #F3D191;
+            font-size: 65px;
+        }
+
+        p {
+            color: #F3D191;
+            font-size: 48px;
+            font-family: 'Segoe UI', sans-serif;
+            b {
+                font-family: 'Segoe UI', sans-serif;
+            }
+        }
+    }
+
+    &__billing {
+
+        .payment__form-antd-input-group {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr auto auto;
+            gap: 20px;
+            padding-bottom: 80px;
+            .grid__item {
+
+                &-title {
+                    display: flex;
+                    align-items: center;
+
+                    .circle {
+                        height: 36px;
+                        width: 36px;
+                        border-radius: 50%;
+                        border: 1px solid #F3D191;
+                        text-align: center;
+                        color: #F3D191;
+                        padding: 8px;
+                        margin-right: 10px;
+                    }
+
+                    h4 {
+                        font-family: 'Segoe UI', sans-serif;
+                        color: #F3D191;
+                        margin: 0;
+                        font-size: 24px;
+                    }
+
+                    margin-bottom: 20px;
+                }
+
+                &-input {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 20px;
+
+                    label {
+                        font-family: 'Segoe UI', sans-serif;
+                        color: #F3D191;
+                        font-size: 20px;
+                    }
+
+                    input {
+                        &::placeholder {
+                            font-family: 'Segoe UI', sans-serif;
+                        }
+                        font-family: 'Segoe UI', sans-serif;
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+
+                    .ant-form-item-control-input-content {
+                        height: 40px;
+                        
+                    }
+                    
+                    .StripeElement {
+                        background-color: #fff;
+                        height: 40px;
+                        text-align: center;
+                        padding: 10px;
+                        border-radius: 5px;
+                    }
+                    
+                    .ant-select-selector {
+                        height: 40px;
+                    }
+                }
+
+                &-price {
+                    color: #F3D191;
+                    font-family: 'Segoe UI', sans-serif;
+                    font-weight: 600;
+                    font-size: 32px;
+                    text-align: center;
+                }
+
+                &-button {
+                    margin-top: 20px;
+                    text-align: center;
+                    .ps-btn {
+                        background-image: url('/static/img/bg/Mask Group 35.png');
+                        border-radius: 5px;
+                        color: #0C112C;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

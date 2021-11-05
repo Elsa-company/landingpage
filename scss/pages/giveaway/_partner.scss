@@ -1,0 +1,160 @@
+section.section-giveaway-partner {
+	height: 700px;
+	width: 100%;
+	// background-image: url('/static/img/bg/Rectangle 527.png');
+	// background-size: cover;
+	// background-color: yellow;
+	background-color: #fff;
+
+	.section-our-partner__container {
+		padding: 10rem 0;
+		height: 100%;
+
+		@include flex(center, center, column);
+
+		.section-our-partner__title {
+			h4 {
+				font-family: UTM Banque;
+				font-size: 65px;
+				color: #050c4b;
+				font-weight: 600;
+				margin-bottom: 5rem;
+			}
+		}
+
+		.section-our-partner__grid {
+			padding: 0 1rem;
+			flex-grow: 1;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			gap: 0rem 15rem;
+
+			div {
+				@include flex(center, center, column);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1536px) {
+	section.section-giveaway-partner {
+		height: 583px;
+		.section-our-partner__container {
+			.section-our-partner__title {
+				h4 {
+					font-size: 49px;
+				}
+			}
+
+			.section-our-partner__grid {
+				gap: 0rem 10rem;
+
+				div {
+					@include flex(center, center, column);
+					height: 180px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	section.section-giveaway-partner {
+		height: 583px;
+		.section-our-partner__container {
+			.section-our-partner__title {
+				h4 {
+					font-size: 49px;
+				}
+			}
+
+			.section-our-partner__grid {
+				gap: 0rem 8rem;
+
+				div {
+					@include flex(center, center, column);
+					height: 160px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	section.section-giveaway-partner {
+		height: 457px;
+		.section-our-partner__container {
+			.section-our-partner__title {
+				h4 {
+					font-size: 33px;
+				}
+			}
+
+			.section-our-partner__grid {
+				grid-template-columns: 135px 135px 135px 135px;
+				grid-template-rows: 135px 135px;
+				gap: 0rem 6rem;
+
+				div {
+					@include flex(center, center, column);
+					height: 60px;
+					width: 135px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	section.section-giveaway-partner {
+		height: auto;
+		.section-our-partner__container {
+			.section-our-partner__title {
+				h4 {
+					font-size: 25px;
+				}
+			}
+
+			.section-our-partner__grid {
+				width: 100%;
+				grid-template-columns: repeat(auto-fit, minmax(130px, 130px));
+				justify-content: center;
+				grid-template-rows: repeat(auto-fit, minmax(130px, 130px));
+
+				gap: 0rem 5rem;
+
+				div {
+					@include flex(center, center, column);
+					height: 120px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	section.section-giveaway-partner {
+		height: auto;
+		.section-our-partner__container {
+			padding: 5rem 0 3rem 0;
+			.section-our-partner__title {
+				h4 {
+					font-size: 28px;
+				}
+			}
+
+			.section-our-partner__grid {
+				grid-template-columns: 120px 120px;
+				grid-template-rows: 120px 120px 120px 120px;
+				gap: 0rem 5rem;
+
+				div {
+					@include flex(center, center, column);
+					height: 20px;
+					width: 100px;
+				}
+			}
+		}
+	}
+}

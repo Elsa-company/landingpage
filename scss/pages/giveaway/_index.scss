@@ -1,0 +1,10 @@
+.giveaway {
+    background: transparent linear-gradient(90deg, #050C4B 0%, #1A2165 53%, #050C4B 100%) 0% 0% no-repeat padding-box;
+
+    @import 'hero';
+    @import 'package';
+    @import 'prize';
+    @import 'gallery';
+    @import 'benerfit';
+    @import 'partner';
+}

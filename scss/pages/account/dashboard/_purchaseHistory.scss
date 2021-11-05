@@ -1,0 +1,87 @@
+&__purchase-history__title {
+	color: #090f44;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 38px;
+	padding: 40px 0;
+	text-align: center;
+	font-weight: 600;
+}
+
+&__purchase-history__table {
+	// height: 841px;
+	background: transparent;
+	// border-radius: 10px;
+	div {
+		font-family: 'Segoe UI', sans-serif;
+	}
+
+	// text title
+	.sc-dlfnuX {
+		height: 76px;
+	}
+	.sc-dQoVA {
+		text-align: center;
+		font-family: Segoe UI, sans-serif;
+		font-size: 21px;
+		font-weight: 600;
+		color: #090f44;
+	}
+
+	// arrow up down
+	.sc-kEjbQP {
+		position: relative;
+		top: 3px;
+	}
+
+	// table - body
+	.sc-hHfuMS {
+		> div {
+			// change color row
+			&:nth-child(odd) {
+				background: #f8f8f8 0% 0% no-repeat padding-box;
+			}
+
+			height: 78px;
+
+			text-align: center;
+			font-family: Segoe UI, sans-serif;
+			color: #a0a0a0;
+			font-size: 21px;
+			font-weight: normal;
+
+			// cell
+			.sc-hKgJUU {
+				&:nth-child(3) {
+					span {
+						font-family: Segoe UI, sans-serif;
+						padding: 0rem 2rem;
+						border-radius: 5px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+
+		// border-row
+		.fjxduL:not(:last-of-type) {
+			border: none;
+		}
+	}
+
+	// pagination
+	.sc-iJuVqt {
+		// nav
+		border: none;
+		background: transparent;
+		box-shadow: none;
+
+		// row
+		.sc-bYEvvW {
+			// display: none;
+		}
+
+		.sc-lmoMya {
+			// display: none;
+		}
+	}
+}
