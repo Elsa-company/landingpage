@@ -1,3 +1,115 @@
 .ps-stories-section {
+    background-image: url('/static/img/bg/section-6.png');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
     
+
+
+    .section-title {
+        color: #333;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 54px;
+        &:first-child {
+            margin-bottom: 120px;
+        }
+    }
+
+    .education-list {
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: auto;
+        gap: 3rem;
+        justify-content: center;
+        margin-bottom: 250px;
+
+        .education {
+            background-color: #fff;
+            padding: 80px 30px 24px 30px;
+            position: relative;
+            box-shadow: 0 22px 34px 10px rgba($color: #000000, $alpha: 0.05);
+            border-radius: 24px;
+            .thumbnail>img {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 0;
+                right: calc(50% - 130px);
+            }
+
+            .education-content {
+
+                &__header {
+                    .title-blade {
+                        margin-bottom: 24px;
+                        button {
+                            color: #4294FF;
+                            font-size: 20px;
+                            font-weight: 600;
+                            padding: 8px 30px;
+                            background-color: rgba($color: #4294FF, $alpha: 0.17);
+                            width: auto;
+                            border: none;
+                            border-radius: 65px;
+                        }
+                       
+                    }
+
+                    .title-text {
+                        font-size: 24px;
+                        border-bottom: 1px solid rgba($color: #333, $alpha: 0.33);
+                        margin: 0;
+                        padding-bottom: 24px;
+                        color: #333;
+                    }
+                }
+
+                &__footer {
+                    padding-top: 24px ;
+                    p {
+                        margin: 0;
+                        color: #4294FF;
+                        font-size: 24px;
+                        img {
+                            max-width: 20px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .awards-list {
+        // transform: translateY(150px);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 0 30px;
+        margin-bottom: 80px;
+
+        .award {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr 1fr;
+            gap: 20px;
+            
+            background-color: #fff;
+            box-shadow: 0 22px 34px 10px rgba($color: #000000, $alpha: 0.05);
+            border-radius: 24px;
+            padding: 60px 40px 30px 40px;
+            .thumbnail {
+                display: flex;
+                justify-content: center;
+            }
+            .body {
+                font-size: 24px;
+                color: #333;
+                text-align: center;
+                padding: 0 20px;
+            }
+        }
+    }
 }

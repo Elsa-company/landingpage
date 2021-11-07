@@ -6,89 +6,113 @@ const FooterMenu = () => {
 		<div className='ps-footer__menu'>
 			<div className='footer__menu'>
 				<ul>
-					<li className='title'>Support</li>
+					<li className='title'>FOR INDIVIDUALS</li>
 					<li>
-						<Link href='/page/contactus'>
-							<a>Contact Us</a>
+						<Link href='#'>
+							<a>ELSA Pro Subscription  </a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/faqs'>
-							<a>FAQs</a>
+						<Link href='#'>
+							<a>ELSA as a Gift</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/terms'>
-							<a>Terms and Conditions</a>
-						</Link>
-					</li>
-					<li>
-						<Link href='/page/privacy'>
-							<a>Privacy Policy</a>
+						<Link href='#'>
+							<a>ELSA Instant</a>
 						</Link>
 					</li>
 				</ul>
 			</div>
 			<div className='footer__menu'>
 				<ul>
-					<li className='title'>Quick link</li>
+					<li className='title'>for organizations</li>
+					<li>
+						<Link href='#'>
+							<a>English for Schools</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+							<a>English for Companies</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+							<a>ELSA API</a>
+						</Link>
+					</li>
+				</ul>
+			</div>
+			<div className='footer__menu'>
+				<ul>
+					<li className='title'>COMPANY</li>
 					<li>
 						<Link href='/'>
-							<a>Home</a>
+							<a>About us</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/aboutus'>
-							<a>About Us</a>
+						<Link href='#'>
+							<a>Career</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/giveaways'>
-							<a>Give Away</a>
+						<Link href='#'>
+							<a>Affiliates</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/membership'>
-							<a>Membership</a>
+						<Link href='#'>
+							<a>Blog</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='/page/partners'>
-							<a>Partners</a>
+						<Link href='#'>
+							<a>Customers</a>
 						</Link>
 					</li>
 				</ul>
 			</div>
 			<div className='footer__menu'>
 				<ul>
-					<li className='title'>Contact</li>
-					<li>Email: info@harttgroup.com.au</li>
-					{/* <li>Tel: 0460 8X8 888</li>
-					<li>Address: TBC</li> */}
+					<li className='title'>SOLUTIONS</li>
+					<li>
+						<Link href='/'>
+							<a>ELSA for airlines</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+							<a>ELSA for hotels</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+							<a>ELSA for IT & Consulting</a>
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+							<a>ELSA for healthcare</a>
+						</Link>
+					</li>
 				</ul>
 			</div>
-			<div className='social'>
-				<Link href='#' target='_blank' className='header__right__list-icons'>
-					<a>
-						<i className='fa fa-instagram' aria-hidden='true' />
-					</a>
-				</Link>
-				<Link href='#' target='_blank' className='header__right__list-icons'>
-					<a>
-						{' '}
-						<i className='fa fa-twitter' aria-hidden='true' />
-					</a>
-				</Link>
-				<Link href='#' target='_blank' className='header__right__list-icons'>
-					<a>
-						<i className='fa fa-facebook' aria-hidden='true' />
-					</a>
-				</Link>
-				<Link href='#' target='_blank' className='header__right__list-icons'>
-					<a>
-						<i className='fa fa-globe' aria-hidden='true' />
-					</a>
-				</Link>
+			<div className='footer__menu'>
+				<ul>
+					<li className='title'>DOWNLOAD</li>
+					<li>
+						<Link href='/'>
+							<img src="/static/img/pages/download-apple.png" alt="" />
+						</Link>
+					</li>
+					<li>
+						<Link href='#'>
+						<img src="/static/img/pages/download-chplay.png" alt="" />
+						</Link>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);

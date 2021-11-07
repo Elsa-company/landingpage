@@ -1,3 +1,70 @@
 .ps-design-section {
-    
+    background-image: url('/static/img/bg/section-5.png');
+    background-size: cover;
+    padding: 80px 0;
+
+    .section-title {
+        margin-bottom: 70px;
+        h2 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 24px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 14px;
+
+            &:last-child {
+                color: #4294FF;
+                img {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .section-content {
+        
+        .card-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 0 3rem;
+            .card-design {
+                background-color: #fff;
+                border-radius: 25px;
+                padding: 35px 45px;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 2fr 1fr;
+
+                &__head {
+                    text-align: center;
+                    margin-bottom: 25px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                &__body {
+                    &-title {
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+
+                    &-content {
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
 }

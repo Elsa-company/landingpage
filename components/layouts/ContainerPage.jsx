@@ -34,7 +34,7 @@ const ContainerPage = ({ children, title, boxed = false }) => {
 			<HeaderDefault />
 			{/* <HeaderMobile /> */}
 			<main>{children}</main>
-			{/* <FooterFullwidth /> */}
+			<FooterFullwidth />
 			{/* <NavigationList /> */}
 
 			{/* <ToastContainer /> */}

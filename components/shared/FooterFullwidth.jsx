@@ -9,7 +9,6 @@ const FooterFullwidth = () => (
 			<FooterLogo />
 			<FooterMenu />
 		</div>
-		<FooterCopyright />
 	</footer>
 );
 
