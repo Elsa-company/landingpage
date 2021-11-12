@@ -1,12 +1,14 @@
 import React, { useEffect, useState} from 'react';
-import ContainerPage from '~/components/layouts/ContainerPage';
-import HeroSection from '~/components/partials/homepage/HeroSection';
-import CompanySection from '~/components/partials/homepage/CompanySection';
-import InfoSection from '~/components/partials/homepage/InfoSection';
-import CustomizedSection from '~/components/partials/homepage/CustomizedSection';
-import DesignSection from '~/components/partials/homepage/DesignSection';
-import StoriesSection from '~/components/partials/homepage/StoriesSection';
-import ContactSection from '~/components/partials/homepage/ContactSection';
+import dynamic from 'next/dynamic'
+
+const ContainerPage = dynamic(() => import( '~/components/layouts/ContainerPage'))
+const HeroSection = dynamic(() => import( '~/components/partials/homepage/HeroSection'))
+const CompanySection = dynamic(() => import( '~/components/partials/homepage/CompanySection'))
+const InfoSection = dynamic(() => import( '~/components/partials/homepage/InfoSection'))
+const CustomizedSection = dynamic(() => import( '~/components/partials/homepage/CustomizedSection'))
+const DesignSection = dynamic(() => import( '~/components/partials/homepage/DesignSection'))
+const StoriesSection = dynamic(() => import( '~/components/partials/homepage/StoriesSection'))
+const ContactSection = dynamic(() => import( '~/components/partials/homepage/ContactSection'))
 
 const Homepage = () => {
 	return (

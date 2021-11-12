@@ -3,8 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
 import { Drawer, Button, Radio, Space } from 'antd';
 import Logo from '~/components/elements/Logo';
-import LoginForm from '~/components/elements/modalPattern/loginForm';
-import JoinNowForm from '~/components/elements/modalPattern/joinNowForm';
 import Router from 'next/router';
 import { logout } from '~/app/features/auth/slice';
 import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';

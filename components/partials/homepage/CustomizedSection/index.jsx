@@ -1,22 +1,24 @@
 import React from 'react'
+import Container from '~/components/elements/Container';
+import * as Styled from './style'
 
 const CustomizedSection = () => {
     return (
-        <section className='ps-customized-section'>
-            <div className="ps-container">
-                <div className="title-wrapper">
-                    <h2 data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
+        <Styled.SectionWrapper>
+            <Container>
+                <Styled.TitleWrapper>
+                    <Styled.TitleWrapperH1 data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
                         Customized content for your industry
-                    </h2>
-                    <p data-aos='zoom-out' data-aos-delay='200' data-aos-duration='750'>
+                    </Styled.TitleWrapperH1>
+                    <Styled.TitleWrapperP data-aos='zoom-out' data-aos-delay='200' data-aos-duration='750'>
                         Learning is all about context. That’s why we have a dedicated team of <br />
                         language experts always ready to create industry-relevant modules for you.
-                    </p>
-                </div>
+                    </Styled.TitleWrapperP>
+                </Styled.TitleWrapper>
 
-                <div className="customized-content">
-                    <div className="list-function">
-                        <div className="list-function__item" data-aos='fade-up' data-aos-delay='200' data-aos-duration='750'>
+                <Styled.CustomizedContent>
+                    <Styled.ListFunction>
+                        <Styled.ListFunctionItem active data-aos='fade-up' data-aos-delay='200' data-aos-duration='750'>
                             <i>
                                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="23" cy="23" r="23" fill="#238DE0" />
@@ -28,8 +30,8 @@ const CustomizedSection = () => {
                             </i>
 
                             <p>ELSA for airlines</p>
-                        </div>
-                        <div className="list-function__item" data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
+                        </Styled.ListFunctionItem>
+                        <Styled.ListFunctionItem data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
                             <i>
                                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="23" cy="23" r="23" fill="#238DE0" fill-opacity="0.1" />
@@ -42,8 +44,8 @@ const CustomizedSection = () => {
                             </i>
 
                             <p>ELSA for hotels</p>
-                        </div>
-                        <div className="list-function__item" data-aos='fade-up' data-aos-delay='800' data-aos-duration='750'>
+                        </Styled.ListFunctionItem>
+                        <Styled.ListFunctionItem data-aos='fade-up' data-aos-delay='800' data-aos-duration='750'>
                             <i>
                                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="23" cy="23" r="23" fill="#238DE0" fill-opacity="0.1" />
@@ -59,8 +61,8 @@ const CustomizedSection = () => {
                             </i>
 
                             <p>ELSA for IT & consulting</p>
-                        </div>
-                        <div className="list-function__item" data-aos='fade-up' data-aos-delay='1100' data-aos-duration='750'>
+                        </Styled.ListFunctionItem>
+                        <Styled.ListFunctionItem data-aos='fade-up' data-aos-delay='1100' data-aos-duration='750'>
                             <i>
                                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="23" cy="23" r="23" fill="#238DE0" fill-opacity="0.1" />
@@ -69,13 +71,13 @@ const CustomizedSection = () => {
                             </i>
 
                             <p>ELSA for call centers</p>
-                        </div>
-                    </div>
-                    <div className="image" data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
+                        </Styled.ListFunctionItem>
+                    </Styled.ListFunction>
+                    <Styled.Image data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
                         <img src="/static/img/pages/e3d92861-5191-45f0-aa79-b258737313cb.png" alt="main picture" />
-                    </div>
-                    <div className="quote-wrapper">
-                        <div className="quote-title" data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
+                    </Styled.Image>
+                    <Styled.QuoteWrapper>
+                        <Styled.QuoteWrapperTitle data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
                             <h5>
                                 We have partnered with pioneering airlines to offer training to thousands of cabin crew members.
                             </h5>
@@ -83,31 +85,30 @@ const CustomizedSection = () => {
                                 About our airline modules
                                 <img src="/static/img/icons/next-icon.png" alt="" />
                             </p>
-                        </div>
-                        <div className="quote-main" data-aos='fade-up' data-aos-delay='1100' data-aos-duration='750'>
+                        </Styled.QuoteWrapperTitle>
+                        <Styled.QuoteWrapperMain data-aos='fade-up' data-aos-delay='1100' data-aos-duration='750'>
                             <svg width="28" height="19" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.8142 19C18.997 19 17.4277 18.3214 16.1062 16.9643C14.7847 15.6071 14.1239 13.8182 14.1239 11.5974C14.1239 10.7338 14.2478 9.80844 14.4956 8.82143C14.9499 6.97078 15.7552 5.38745 16.9115 4.07143C18.1091 2.71429 19.472 1.70671 21 1.0487C22.528 0.349568 24.0147 0 25.4602 0C27.1534 0 28 0.493507 28 1.48052C28 1.72727 27.9794 1.91234 27.9381 2.03571C27.8142 2.4881 27.5664 2.87879 27.1947 3.20779C26.823 3.49567 26.2448 3.90693 25.4602 4.44156C24.5516 5.09957 23.8909 5.6342 23.4779 6.04546C23.0649 6.45671 22.8584 6.95022 22.8584 7.52598C22.8584 7.89611 22.9617 8.26624 23.1681 8.63637C23.4159 9.0065 23.7876 9.5 24.2832 10.1169C24.944 10.9805 25.4395 11.7002 25.7699 12.276C26.1003 12.8517 26.2655 13.5097 26.2655 14.25C26.2655 14.6613 26.2035 15.0931 26.0796 15.5455C25.7493 16.6558 25.1298 17.5195 24.2212 18.1364C23.3127 18.7121 22.177 19 20.8142 19ZM6.69027 19C4.87316 19 3.30383 18.3214 1.9823 16.9643C0.660767 15.6071 0 13.8182 0 11.5974C0 10.7338 0.123893 9.80844 0.371681 8.82143C0.825958 6.97078 1.63127 5.38745 2.78761 4.07143C3.98525 2.71429 5.34808 1.70671 6.87611 1.0487C8.40413 0.349568 9.89085 0 11.3363 0C13.0295 0 13.8761 0.493507 13.8761 1.48052C13.8761 1.72727 13.8555 1.91234 13.8142 2.03571C13.6903 2.4881 13.4425 2.87879 13.0708 3.20779C12.6991 3.49567 12.1209 3.90693 11.3363 4.44156C10.4277 5.09957 9.76696 5.6342 9.35398 6.04546C8.941 6.45671 8.73451 6.95022 8.73451 7.52598C8.73451 7.89611 8.83776 8.26624 9.04425 8.63637C9.29204 9.0065 9.66372 9.5 10.1593 10.1169C10.8201 10.9805 11.3156 11.7002 11.646 12.276C11.9764 12.8517 12.1416 13.5097 12.1416 14.25C12.1416 14.6613 12.0796 15.0931 11.9558 15.5455C11.6254 16.6558 11.0059 17.5195 10.0973 18.1364C9.18879 18.7121 8.0531 19 6.69027 19Z" fill="#238DE0" />
                             </svg>
-                            <div className="quote-head">
+                            <Styled.QuoteWrapperMainHead>
                                 <p>Training cooperation with ELSA Speak is one of the strategic steps for human resource development of ATAD. </p>
-                            </div>
-                            <div className="quote-bottom">
+                            </Styled.QuoteWrapperMainHead>
+                            <Styled.QuoteWrapperMainBottom>
                                 <div className="quote-avatar">
                                     <img src="/static/img/pages/94ab8793-0814-4122-bf35-9b8e9bbc010e.png" alt="Avatar name" />
                                 </div>
-                                <div className="quote-name-wrapper">
+                                <Styled.QuoteWrapperMainBottomName>
                                     <h4 className="name">
                                         Ms Nguyen Thi Phuc Tuyen
                                     </h4>
                                     <p className="position">HRD</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                                </Styled.QuoteWrapperMainBottomName>
+                            </Styled.QuoteWrapperMainBottom>
+                        </Styled.QuoteWrapperMain>
+                    </Styled.QuoteWrapper>
+                </Styled.CustomizedContent>
+            </Container>
+        </Styled.SectionWrapper>
     )
 }
 

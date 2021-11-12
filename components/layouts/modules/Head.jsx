@@ -15,14 +15,6 @@ const StyleSheets = () => (
 		<meta name='author' content='Elsa' />
 		<meta name='keywords' content='Elsa' />
 		<meta name='description' content='Elsa' />
-		<link rel='preconnect' href='https://fonts.googleapis.com' />
-		<link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='true' />
-		<link
-			href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap'
-			rel='stylesheet'
-		/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-		<link rel='stylesheet' href='https://use.typekit.net/flp4ysk.css' />
 		<link rel='stylesheet' href='/static/fonts/Linearicons/Font/demo-files/demo.css' />
 
 		<link rel='stylesheet' href='/static/fonts/font-awesome/css/font-awesome.min.css' />
@@ -30,7 +22,7 @@ const StyleSheets = () => (
 		<link rel='stylesheet' type='text/css' href='/static/css/bootstrap.min.css' />
 		<link rel='stylesheet' type='text/css' href='/static/css/slick.min.css' />
 
-		<script src='https://js.stripe.com/v3/' />
+		{/* <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/7353637.js"></script> */}
 	</Head>
 );
 

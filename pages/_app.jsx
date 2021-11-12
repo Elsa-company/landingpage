@@ -6,8 +6,6 @@ import { Provider } from 'react-redux';
 
 import '~/scss/style.scss';
 import '~/scss/font.scss';
-import 'node_modules/react-modal-video/scss/modal-video.scss';
-import '~/scss/animate.min.css';
 
 function App ({ Component, pageProps }) {
 	const getLayout = Component.getLayout || (page => <DefaultLayout children={page} />);
