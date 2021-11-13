@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Button from "~/components/elements/Button";
+import { useSpring, animated } from 'react-spring'
 
 export const SectionWrapper = styled.section`
     background-image: url(${props => props.background || ""});
@@ -86,4 +87,11 @@ export const InfoFooterP = styled.div`
 color: #fff;
             font-size: 18px;
             text-align: center;
+`
+
+export const Globe = styled(animated.div) ` 
+    position: absolute;
+        right: 0;
+        top: 40px;
+        /* transform: translate(50%, 0); */
 `

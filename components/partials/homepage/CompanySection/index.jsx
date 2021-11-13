@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
+import Slider from "react-slick";
 
 import img1 from '~/public/static/img/pages/1.png'
 import img2 from '~/public/static/img/pages/2.png'
@@ -23,23 +24,34 @@ const Company = () => {
         loop: { reverse: true },
         from: { y: -20 },
         to: { y: 20 },
-        config: { duration: 3000 },
+        config: { duration: 4000 },
     })
 
-    
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        lazyLoad: true,
+    };
+
     return (
         <SectionWrapper>
             <Container>
                 <Gallery>
-                    <img src={img1} alt="" />
-                    <img src={img2} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img4} alt="" />
-                    <img src={img5} alt="" />
-                    <img src={img6} alt="" />
-                    <img src={img7} alt="" />
-                    <img src={img8} alt="" />
-                    <img src={img9} alt="" />
+                    <Slider {...settings}>
+                        <img src={img1} alt="" />
+                        <img src={img2} alt="" />
+                        <img src={img3} alt="" />
+                        <img src={img4} alt="" />
+                        <img src={img5} alt="" />
+                        <img src={img6} alt="" />
+                        <img src={img7} alt="" />
+                        <img src={img8} alt="" />
+                        <img src={img9} alt="" />
+                    </Slider>
                 </Gallery>
                 <Traditional>
                     <TraditionalLeft>

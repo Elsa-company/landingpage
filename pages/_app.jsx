@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import '~/scss/style.scss';
 import '~/scss/font.scss';
 
+
 function App ({ Component, pageProps }) {
 	const getLayout = Component.getLayout || (page => <DefaultLayout children={page} />);
 

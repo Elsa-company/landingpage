@@ -1,10 +1,11 @@
 import React from 'react'
 import Container from '~/components/elements/Container';
 import * as Styled from './style'
+import background from '~/public/static/img/bg/section-4.png';
 
 const CustomizedSection = () => {
     return (
-        <Styled.SectionWrapper>
+        <Styled.SectionWrapper background={background}>
             <Container>
                 <Styled.TitleWrapper>
                     <Styled.TitleWrapperH1 data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
