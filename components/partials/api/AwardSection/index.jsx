@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Input, Button, Select } from 'antd';
-
+import COUNTRY_CODE from '~/constant/countryCode';
 import {
     SectionWrapper,
     Title,
@@ -106,10 +106,19 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 <Input placeholder="Doe" size="large" />
                             </Form.Item>
                             <Form.Item
-                                label="Work email"
-                            >
-                                <Input placeholder="hello@elsaspeak.com" size="large" />
-                            </Form.Item>
+                                    rules={[
+                                        {
+                                            //   required: true,
+                                            type: "email",
+                                            message: "The input is not valid E-mail!"
+                                        },
+                                    ]}
+                                    label="Work email"
+                                    name="email"
+                                    requiredMark={false}
+                                >
+                                    <Input placeholder="hello@elsaspeak.com" size="large" />
+                                </Form.Item>
                             <Form.Item
                                 label="Company name"
                             >
@@ -122,8 +131,11 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 <Select
                                     placeholder="Choose an option" size="large"
                                 >
-                                    <Select.Option value="1">Option 1</Select.Option>
-                                    <Select.Option value="2">Option 2</Select.Option>
+                                    {COUNTRY_CODE.map(c => (
+                                            <Select.Option value={c.code} key={c.code}>
+                                                {c.name || 'VIETNAM'}
+                                            </Select.Option>
+                                        ))}
                                 </Select>
                             </Form.Item>
                             <Form.Item
