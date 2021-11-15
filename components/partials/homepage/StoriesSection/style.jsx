@@ -121,6 +121,10 @@ export const AwardsItem = styled.div`
 export const AwardsItemThumb = styled.div`
      display: flex;
                 justify-content: center;
+                max-height: 150px;
+    /* img {
+        object-fit: cover;
+    } */
 `
 
 export const AwardsItemBody = styled.p`

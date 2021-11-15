@@ -93,5 +93,5 @@ export const Globe = styled(animated.div) `
     position: absolute;
         right: 0;
         top: 40px;
-        /* transform: translate(50%, 0); */
+        /* transform: translate(40%, 0); */
 `

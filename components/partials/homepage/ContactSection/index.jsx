@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, Input, Button, Select } from 'antd';
+import COUNTRY_CODE from '~/constant/countryCode';
 
 const ContactSection = () => {
     return (
@@ -23,12 +24,22 @@ const ContactSection = () => {
                                         placeholder="Choose an option"
                                         size="large"
                                     >
-                                        <Select.Option value="1">Option 1</Select.Option>
-                                        <Select.Option value="2">Option 2</Select.Option>
+                                        <Select.Option value="1">I am interested in ELSA program for my company </Select.Option>
+                                        <Select.Option value="2">I represent a non-profit organization </Select.Option>
+                                        <Select.Option value="2">I represent a government institution </Select.Option>
+                                        <Select.Option value="2">I represent a higher education institution </Select.Option>
+                                        <Select.Option value="2">I represent a private language school </Select.Option>
+                                        <Select.Option value="2">I am a private tutor </Select.Option>
+                                        <Select.Option value="2">I am a teacher at an education institution </Select.Option>
+                                        <Select.Option value="2">Other:</Select.Option>
                                     </Select>
                                 </Form.Item>
-                                <p>Using ELSA as an individual?
-                                    <img src="/static/img/icons/next-icon.png" alt="" />
+                                <p>
+                                    <a href="https://elsaspeak.com/en/product" target="_blank">
+                                        Using ELSA as an individual?
+                                        <img src="/static/img/icons/next-icon.png" alt="" />
+                                    </a>
+
                                 </p>
                                 <Form.Item
                                     label="First name"
@@ -41,7 +52,16 @@ const ContactSection = () => {
                                     <Input placeholder="Doe" size="large" />
                                 </Form.Item>
                                 <Form.Item
+                                    rules={[
+                                        {
+                                            //   required: true,
+                                            type: "email",
+                                            message: "The input is not valid E-mail!"
+                                        },
+                                    ]}
                                     label="Work email"
+                                    name="email"
+                                    requiredMark={false}
                                 >
                                     <Input placeholder="hello@elsaspeak.com" size="large" />
                                 </Form.Item>
@@ -51,8 +71,10 @@ const ContactSection = () => {
                                     <Select
                                         placeholder="Choose an option" size="large"
                                     >
-                                        <Select.Option value="1">Option 1</Select.Option>
-                                        <Select.Option value="2">Option 2</Select.Option>
+                                        <Select.Option value="1">1-50</Select.Option>
+                                        <Select.Option value="2">51-100</Select.Option>
+                                        <Select.Option value="2">101-1000</Select.Option>
+                                        <Select.Option value="2">1000+</Select.Option>
                                     </Select>
                                 </Form.Item>
                                 <Form.Item
@@ -61,8 +83,11 @@ const ContactSection = () => {
                                     <Select
                                         placeholder="Choose an option" size="large"
                                     >
-                                        <Select.Option value="1">Option 1</Select.Option>
-                                        <Select.Option value="2">Option 2</Select.Option>
+                                        {COUNTRY_CODE.map(c => (
+                                            <Select.Option value={c.code} key={c.code}>
+                                                {c.name || 'VIETNAM'}
+                                            </Select.Option>
+                                        ))}
                                     </Select>
                                 </Form.Item>
                                 <Form.Item
