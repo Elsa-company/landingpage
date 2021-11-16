@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Input, Button, Select } from 'antd';
+import { Element } from 'react-scroll';
 import COUNTRY_CODE from '~/constant/countryCode';
 import {
     SectionWrapper,
@@ -26,6 +27,7 @@ import award4 from '~/public/static/img/pages/award-4.png'
 import award5 from '~/public/static/img/pages/award-5.png'
 import award6 from '~/public/static/img/pages/award-6.png'
 import award7 from '~/public/static/img/pages/award-7.png'
+
 const HomeDefaultBanner = ({ giveaway }) => {
 
     return (
@@ -87,79 +89,81 @@ const HomeDefaultBanner = ({ giveaway }) => {
                     </h1>
                 </Title>
                 <FromWrapper>
-                <FromGroup>
-                    <Form
-                        name="basic"
-                        autoComplete="off"
-                        layout="vertical"
-                    >
-                        <FromBody>
-                            
-                            <Form.Item
-                                label="First name"
+                    <FromGroup>
+                        <Element name="request-demo">
+                            <Form
+                                name="basic"
+                                autoComplete="off"
+                                layout="vertical"
                             >
-                                <Input placeholder="John" size="large" />
-                            </Form.Item>
-                            <Form.Item
-                                label="Last name"
-                            >
-                                <Input placeholder="Doe" size="large" />
-                            </Form.Item>
-                            <Form.Item
-                                    rules={[
-                                        {
-                                            //   required: true,
-                                            type: "email",
-                                            message: "The input is not valid E-mail!"
-                                        },
-                                    ]}
-                                    label="Work email"
-                                    name="email"
-                                    requiredMark={false}
-                                >
-                                    <Input placeholder="hello@elsaspeak.com" size="large" />
-                                </Form.Item>
-                            <Form.Item
-                                label="Company name"
-                            >
-                                <Input placeholder="ELSA Speak" size="large" />
-                            </Form.Item>
+                                <FromBody>
 
-                            <Form.Item
-                                label="Country"
-                            >
-                                <Select
-                                    placeholder="Choose an option" size="large"
-                                >
-                                    {COUNTRY_CODE.map(c => (
-                                            <Select.Option value={c.code} key={c.code}>
-                                                {c.name || 'VIETNAM'}
-                                            </Select.Option>
-                                        ))}
-                                </Select>
-                            </Form.Item>
-                            <Form.Item
-                                label="Phone number"
-                            >
-                                <Input placeholder="+ 84 904 065 063" size="large" />
-                            </Form.Item>
-                            
-                            <Form.Item
-                                label="Detail of inquiry"
-                            >
-                                <Input.TextArea placeholder="Enter your detailed inquiry" rows={8} />
-                            </Form.Item>
+                                    <Form.Item
+                                        label="First name"
+                                    >
+                                        <Input placeholder="John" size="large" />
+                                    </Form.Item>
+                                    <Form.Item
+                                        label="Last name"
+                                    >
+                                        <Input placeholder="Doe" size="large" />
+                                    </Form.Item>
+                                    <Form.Item
+                                        rules={[
+                                            {
+                                                //   required: true,
+                                                type: "email",
+                                                message: "The input is not valid E-mail!"
+                                            },
+                                        ]}
+                                        label="Work email"
+                                        name="email"
+                                        requiredMark={false}
+                                    >
+                                        <Input placeholder="hello@elsaspeak.com" size="large" />
+                                    </Form.Item>
+                                    <Form.Item
+                                        label="Company name"
+                                    >
+                                        <Input placeholder="ELSA Speak" size="large" />
+                                    </Form.Item>
 
-                        </FromBody>
-                        <div className="form-footer">
-                            <button className="ps-btn">
-                            REQUEST API KEY
-                            </button> 
-                        </div>
-                    </Form>
-                </FromGroup>
+                                    <Form.Item
+                                        label="Country"
+                                    >
+                                        <Select
+                                            placeholder="Choose an option" size="large"
+                                        >
+                                            {COUNTRY_CODE.map(c => (
+                                                <Select.Option value={c.code} key={c.code}>
+                                                    {c.name || 'VIETNAM'}
+                                                </Select.Option>
+                                            ))}
+                                        </Select>
+                                    </Form.Item>
+                                    <Form.Item
+                                        label="Phone number"
+                                    >
+                                        <Input placeholder="+ 84 904 065 063" size="large" />
+                                    </Form.Item>
+
+                                    <Form.Item
+                                        label="Detail of inquiry"
+                                    >
+                                        <Input.TextArea placeholder="Enter your detailed inquiry" rows={8} />
+                                    </Form.Item>
+
+                                </FromBody>
+                                <div className="form-footer">
+                                    <button className="ps-btn">
+                                        REQUEST API KEY
+                                    </button>
+                                </div>
+                            </Form>
+                        </Element>
+                    </FromGroup>
                 </FromWrapper>
-                
+
             </Container>
         </SectionWrapper>
     );

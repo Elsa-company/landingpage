@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const Button = styled.button `
     display: inline-block;
-	padding: 8px 25px;
-	font-size: 16px;
+	padding:  ${props => props.padding ? props.padding : "8px 25px"};
+	font-size: ${props => props.fontSize ? props.fontSize : "16px"};
 	line-height: 20px;
 	color: #fff;
 	border: none;

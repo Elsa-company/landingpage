@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from 'react';
 import dynamic from 'next/dynamic'
 
-const ContainerPage = dynamic(() => import( '~/components/layouts/ContainerPage'))
+const ContainerPageAPI = dynamic(() => import( '~/components/layouts/ContainerPageAPI'))
 const HeroSection = dynamic(() => import( '~/components/partials/api/HeroSection'))
 const HowItWorkSection = dynamic(() => import( '~/components/partials/api/HowItWorkSection'))
 const DetectSection = dynamic(() => import( '~/components/partials/api/DetectSection'))
@@ -10,15 +10,15 @@ const InfoSection = dynamic(() => import( '~/components/partials/homepage/InfoSe
 
 const Homepage = () => {
 	return (
-		<ContainerPage title='API Page' boxed={true}>
+		<ContainerPageAPI title='API Page' boxed={true}>
 			<div className='ps-page--single'>
 				<HeroSection />
-				<InfoSection />
+				{/* <InfoSection /> */}
 				<HowItWorkSection />
 				<DetectSection />
 				<AwardSection />
 			</div>
-		</ContainerPage>
+		</ContainerPageAPI>
 	);
 };
 

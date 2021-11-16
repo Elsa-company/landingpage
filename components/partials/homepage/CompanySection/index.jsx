@@ -15,6 +15,7 @@ import companyPhone from '~/public/static/img/pages/company-phone.png'
 
 import LinkText from '~/components/elements/LinkText'
 import Container from '~/components/elements/Container'
+import { Link as LinkScroll } from 'react-scroll'
 
 import { SectionWrapper, Gallery, Traditional, TraditionalLeft, TraditionalRight, TraditionalTitle, TraditionalDesc, ButtonCustom } from './style'
 
@@ -64,9 +65,11 @@ const Company = () => {
                             With our AI-powered speech-recognition technology, your employees can receive detailed feedback on pronunciation, fluency, intonation and more without going to any physical class.
                         </TraditionalDesc>
                         <LinkText text={'Learn more about our technology'}></LinkText>
-                        <ButtonCustom >
-                            Request a Demo
-                        </ButtonCustom>
+                        <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                            <ButtonCustom >
+                                Request a Demo
+                            </ButtonCustom>
+                        </LinkScroll>
                     </TraditionalLeft>
                     <TraditionalRight>
                         <animated.div style={{ ...styles }}>

@@ -8,7 +8,7 @@ import '~/scss/style.scss';
 import '~/scss/font.scss';
 
 
-function App ({ Component, pageProps }) {
+function App({ Component, pageProps }) {
 	const getLayout = Component.getLayout || (page => <DefaultLayout children={page} />);
 
 	useEffect(() => {
@@ -16,6 +16,13 @@ function App ({ Component, pageProps }) {
 		setTimeout(function () {
 			document.getElementById('__next').classList.add('loaded');
 		}, 100);
+
+		const d = document;
+		const s = d.createElement("script");
+
+		s.src = "https://js-na1.hs-scripts.com/7353637.js";
+		s.async = true;
+		d.getElementsByTagName("body")[0].appendChild(s);
 	}, []);
 	return getLayout(
 		<Provider store={store}>

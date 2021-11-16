@@ -1,7 +1,5 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
-
-
 import Container from '~/components/elements/Container';
 import background from '~/public/static/img/bg/section-3.png';
 import globe from '~/public/static/img/bg/section3-2.png';

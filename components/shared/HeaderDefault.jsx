@@ -7,6 +7,7 @@ import Router from 'next/router';
 import { logout } from '~/app/features/auth/slice';
 import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';
 import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app/slice';
+import { Link as LinkScroll } from 'react-scroll'
 
 const HeaderDefault = () => {
 
@@ -20,27 +21,24 @@ const HeaderDefault = () => {
 					<div className="header-container__right">
 						<div className="header-menu">
 							<div className="menu-item">
-								Our Technology
+								<LinkScroll to="customer-stories" spy={true} smooth={true} offset={-100} duration={1500}>
+									Customer stories
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
-								Solutions
-							</div>
-							<div className="menu-item">
-								Resources
-							</div>
-							<div className="menu-item">
-								Customers
-							</div>
-							<div className="menu-item">
-								Pricing
+								<LinkScroll to="pricing" spy={true} smooth={true} offset={-100} duration={1500}>
+									Pricing
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
 								Login
 							</div>
 							<div className="menu-item">
-								<button className="ps-btn">
-									Request a Demo
-								</button>
+								<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+									<button className="ps-btn">
+										Request a Demo
+									</button>
+								</LinkScroll>
 							</div>
 						</div>
 					</div>
