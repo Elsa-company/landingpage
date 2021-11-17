@@ -10,15 +10,12 @@ const DesignSection = () => {
             <Container>
                 <Styled.Title>
                     <h2  data-aos='fade-up' data-aos-delay='100' data-aos-duration='750'>
-                        Designed for learners. Loved by HRs.
+                    Designed for learners. Loved by HRs.
                     </h2>
                     <p  data-aos='fade-up' data-aos-delay='200' data-aos-duration='750'>
-                        ELSA Business streamlines recruitment and learning & development process
+                    ELSA Business streamlines recruitment and learning & development process
                     </p>
-                    <p  data-aos='fade-up' data-aos-delay='200' data-aos-duration='750'>
-                        Check out ELSA’s amazing features for enterprises
-                        <img src="/static/img/icons/next-icon.png" alt="" />
-                    </p>
+                   
                 </Styled.Title>
                 <Styled.Content>
                     <Styled.CardWrapper>

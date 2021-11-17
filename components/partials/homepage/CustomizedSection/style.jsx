@@ -42,15 +42,15 @@ export const ListFunctionItem = styled.div`
     display: flex;
     justify-content: start;
     align-items: center;
-    border-bottom: 1px solid rgba($color: #333, $alpha: 0.33);
-
+    border-bottom: 1px solid rgba(51, 51, 51, 0.33);;
+    cursor: pointer;
     p {
         margin-left: 15px;
         margin-bottom: 0;
         font-size: 24px;
         color: #333;
-        opacity: ${props => props.active ? "100%" : "33%"};
-        font-weight: ${props => props.active ? "500" : "400"};
+        opacity: ${props => props.active == "true" ? "100%" : "33%"};
+        font-weight: ${props => props.active == "true" ? "500" : "400"};
     }
 `
 

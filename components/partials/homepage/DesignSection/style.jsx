@@ -21,12 +21,7 @@ export const Title = styled.div`
             color: #fff;
             margin-bottom: 14px;
 
-            &:last-child {
-                color: #4294FF;
-                img {
-                    margin-left: 10px;
-                }
-            }
+           
     }
 `
 

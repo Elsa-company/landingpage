@@ -8,19 +8,13 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>FOR INDIVIDUALS</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA Pro Subscription  </a>
-						</Link>
+						<a href="https://elsaspeak.com/en/product" target="_blank">ELSA Pro Subscription  </a>
 					</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA as a Gift</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/product" target="_blank" >ELSA as a Gift</a>
 					</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA Instant</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/elsa-instant" target="_blank">ELSA Instant</a>
 					</li>
 				</ul>
 			</div>
@@ -28,19 +22,15 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>for organizations</li>
 					<li>
-						<Link href='#'>
-							<a>English for Schools</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/english-for-schools/homepage" target="_blank">English for Schools</a>
+
 					</li>
 					<li>
-						<Link href='#'>
-							<a>English for Companies</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/english-for-companies/homepage" target="_blank">English for Companies</a>
 					</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA API</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/english-for-companies/demo" target="_blank">ELSA API</a>
+
 					</li>
 				</ul>
 			</div>
@@ -48,29 +38,24 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>COMPANY</li>
 					<li>
-						<Link href='/'>
-							<a>About us</a>
-						</Link>
+						<a href="https://elsaspeak.com/introduce" target="_blank">About us</a>
+
 					</li>
 					<li>
-						<Link href='#'>
-							<a>Career</a>
-						</Link>
+						<a href="https://elsaspeak.com/careers" target="_blank">Career</a>
+
 					</li>
 					<li>
-						<Link href='#'>
-							<a>Affiliates</a>
-						</Link>
+						<a href="https://elsaspeak.com/en/affiliates" target="_blank">Affiliates</a>
+
 					</li>
 					<li>
-						<Link href='#'>
-							<a>Blog</a>
-						</Link>
+						<a href="https://elsaspeak.com/blog" target="_blank">Blog</a>
+
 					</li>
 					<li>
-						<Link href='#'>
-							<a>Customers</a>
-						</Link>
+						<a href="#">Customers</a>
+
 					</li>
 				</ul>
 			</div>
@@ -103,14 +88,14 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>DOWNLOAD</li>
 					<li>
-						<Link href='/'>
+						<a href='https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886' target="_blank">
 							<img src="/static/img/pages/download-apple.png" alt="" />
-						</Link>
+						</a>
 					</li>
 					<li>
-						<Link href='#'>
-						<img src="/static/img/pages/download-chplay.png" alt="" />
-						</Link>
+						<a href='https://play.google.com/store/apps/details?id=us.nobarriers.elsa&hl=en_US&gl=US' target="_blank">
+							<img src="/static/img/pages/download-chplay.png" alt="" />
+						</a>
 					</li>
 				</ul>
 			</div>
