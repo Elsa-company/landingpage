@@ -295,7 +295,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        Up to <b>20s</b>
+                                        Up to <b>45s</b>
                                     </p>
                                 </PriceContentHead>
                                 <PriceContentMiddle>
