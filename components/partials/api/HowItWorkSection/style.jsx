@@ -77,8 +77,9 @@ export const OutputItem = styled.div`
 export const ItemCircle = styled.div`
     height: 40px;
     width: 40px;
-    background-color: ${props => props.active ? "#2091F9" : "#3DAEFF"};
+    background-color: #2091F9;
     border-radius: 100%;
+    color: #fff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -90,7 +91,6 @@ export const ItemText = styled.div`
     display: flex;
     align-items: center;
     color: #333;
-    opacity: ${props => props.active ? 1 : 0.6};
     font-size: 20px;
 `
 

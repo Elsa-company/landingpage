@@ -9,7 +9,7 @@ export const SectionWrapper = styled.section`
 
 
 export const Title = styled.div`
-    margin-bottom: 70px;
+    margin-bottom: 110px;
         h2 {
             font-size: 36px;
             text-align: center;

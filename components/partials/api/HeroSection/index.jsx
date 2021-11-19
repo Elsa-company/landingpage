@@ -51,26 +51,27 @@ const HomeDefaultBanner = ({ giveaway }) => {
 
                 <CardGroup>
                     <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="32px" color="#0099FF">
+                        <CardGroupItemPercent fontSize="36px" color="#0099FF">
                             Top ASR in the industry
                         </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="16px" fontWeight={400}>
+                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
                             Give your users world class speech recognition feedback - a high value feature for language learning
                         </CardGroupItemContent>
                     </CardGroupItem>
                     <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="32px" color="#FF9518">
+                        <CardGroupItemPercent fontSize="36px" color="#FF9518">
                             3x conversion rate
                         </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="16px" fontWeight={400}>
-                            ELSA conversion to paying customer is 3x the industry standard thanks to the interactive and engaging nature of speaking practice
+                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
+                            ELSA conversion to paying customer is 3x the industry standard thanks to the interactive and engaging nature of
+                            speaking practice
                         </CardGroupItemContent>
                     </CardGroupItem>
                     <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="32px" color="#00BB13">
+                        <CardGroupItemPercent fontSize="36px" color="#00BB13">
                             8x user engagement
                         </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="16px" fontWeight={400}>
+                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
                             ELSA user's average session time is 23 minutes - top 10% of language learning apps
                         </CardGroupItemContent>
                     </CardGroupItem>
@@ -81,14 +82,14 @@ const HomeDefaultBanner = ({ giveaway }) => {
             </Container>
             <Container>
                 <InfoHead>
-                    <InfoHeadH1>A personal AI English speaking coach for each employee</InfoHeadH1>
-                    <InfoHeadP>ELSA helps your employees improve confidence and <br />
-                        speaking skills in as little as 3 months. No class needed.</InfoHeadP>
+                    <InfoHeadH1>A personal AI English speaking coach for each learner</InfoHeadH1>
+                    <InfoHeadP>Technology that accurately recognizes <br />
+                        non native accents with 95%+ accuracy</InfoHeadP>
                 </InfoHead>
 
                 <InfoCardWrapper>
                     <InfoCardWrapperTitle data-aos-delay='500' data-aos-duration='750'>
-                        <InfoCardWrapperTitleH2>ELSA has been used by 15M+ users <br />
+                        <InfoCardWrapperTitleH2>ELSA has been used by 20M+ users <br />
                             from 100+ countries in the world</InfoCardWrapperTitleH2>
                     </InfoCardWrapperTitle>
                     <CardGroup>
@@ -100,14 +101,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 saw an improvement in pronunciation
                             </CardGroupItemContent>
                         </CardGroupItem>
-                        <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                            <CardGroupItemPercent fontSize="64px">
-                                68%
-                            </CardGroupItemPercent>
-                            <CardGroupItemContent fontSize="24px" fontWeight={600}>
-                                felt they spoke more clearly
-                            </CardGroupItemContent>
-                        </CardGroupItem>
+
                         <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
                             <CardGroupItemPercent fontSize="64px">
                                 95%
@@ -116,7 +110,14 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 expressed higher confidence in speaking english
                             </CardGroupItemContent>
                         </CardGroupItem>
-
+                        <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                            <CardGroupItemPercent fontSize="64px">
+                                68%
+                            </CardGroupItemPercent>
+                            <CardGroupItemContent fontSize="24px" fontWeight={600}>
+                                felt they spoke more clearly
+                            </CardGroupItemContent>
+                        </CardGroupItem>
 
                     </CardGroup>
                 </InfoCardWrapper>

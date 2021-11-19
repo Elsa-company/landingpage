@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import HeaderAPI  from '~/components/shared/HeaderAPI';
-import FooterFullwidth from '~/components/shared/FooterFullwidth';
+import FooterFullwidthAPI from '~/components/shared/FooterFullwidthAPI';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,7 +33,7 @@ const ContainerPage = ({ children, title, boxed = false }) => {
 			<HeaderAPI />
 			{/* <HeaderMobile /> */}
 			<main>{children}</main>
-			<FooterFullwidth />
+			<FooterFullwidthAPI />
 			{/* <NavigationList /> */}
 
 			{/* <ToastContainer /> */}

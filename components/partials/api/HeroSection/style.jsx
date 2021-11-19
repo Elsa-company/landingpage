@@ -79,7 +79,7 @@ export const InfoCardWrapperTitleH2 = styled.div`
 
 
 
-export const CardGroupItemPercent = styled.div` 
+export const CardGroupItemPercent = styled.h1` 
     color: ${props => props.color };
     background-image: ${props => props.color ? "" : "linear-gradient(110deg, #5CE578 , #579CFF )"};
     background-clip: ${props => props.color ? "" : "text"};;
@@ -91,24 +91,28 @@ export const CardGroupItemPercent = styled.div`
     font-weight: 600;
     text-align: center;
     flex: 1;
+    margin-bottom: 0;
+
 `
 
-export const CardGroupItemContent = styled.div` 
+export const CardGroupItemContent = styled.p` 
     color: #333;
     text-align: center;
     font-size: ${props => props.fontSize};
     font-weight: ${props => props.fontWeight};
     margin-bottom: auto;
+    flex: 1;
 `
 
 export const CardGroupItem = styled.div` 
     background-color: #fff;
     border-radius: 25px;
-    padding: 50px 35px;
+    padding: 50px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 325px;
 `
 
 export const CardGroup = styled.div` 

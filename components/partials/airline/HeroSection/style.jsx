@@ -26,7 +26,7 @@ export const H1 = styled.h1`
 export const P = styled.p` 
     color: #fff;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 45px;
 `
 

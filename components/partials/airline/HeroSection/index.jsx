@@ -10,16 +10,16 @@ const HomeDefaultBanner = ({ giveaway }) => {
         <SectionWrapper background={background}>
             <Container>
                 <Content>
-                    <H1 data-aos='fade-up' data-aos-delay='100' data-aos-duration='750'>
+                    <H1>
                         Going “extra mile” for your <br /> passengers starts with <br /> better communication
                     </H1>
 
-                    <P data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
+                    <P >
                         With ELSA, your airline employees are more confident <br />
                         when serving customers from all over the world
                     </P>
                     <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
-                        <ButtonHero data-aos='fade-up' data-aos-delay='600' data-aos-duration='750'>
+                        <ButtonHero >
                             Request a Demo
                         </ButtonHero>
                     </LinkScroll>
