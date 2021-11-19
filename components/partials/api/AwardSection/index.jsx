@@ -156,7 +156,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </FromBody>
                                 <div className="form-footer">
                                     <button className="ps-btn">
-                                        REQUEST API KEY
+                                        SUBMIT
                                     </button>
                                 </div>
                             </Form>

@@ -111,7 +111,7 @@ const ContactSection = () => {
                                     </div>
                                     <div className="form-footer">
                                         <button className="ps-btn">
-                                            Request a demo
+                                            Submit
                                         </button>
                                     </div>
                                 </Form>
