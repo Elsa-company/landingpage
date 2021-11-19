@@ -20,11 +20,11 @@ const HeaderDefault = () => {
 					</div>
 					<div className="header-container__right">
 						<div className="header-menu">
-							<div className="menu-item">
+							{/* <div className="menu-item">
 								<LinkScroll to="customer-stories" spy={true} smooth={true} offset={-100} duration={1500}>
 									Customer stories
 								</LinkScroll>
-							</div>
+							</div> */}
 							<div className="menu-item">
 								<LinkScroll to="pricing" spy={true} smooth={true} offset={-100} duration={1500}>
 									Pricing
