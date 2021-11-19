@@ -9,17 +9,17 @@ const DesignSection = () => {
         <Styled.SectionWrapper background={background}>
             <Container>
                 <Styled.Title>
-                    <h2  data-aos='fade-up' data-aos-delay='100' data-aos-duration='750'>
-                    Designed for learners. Loved by HRs.
+                    <h2  >
+                    Designed for learners. Loved by HR.
                     </h2>
-                    <p  data-aos='fade-up' data-aos-delay='200' data-aos-duration='750'>
+                    <p  >
                     ELSA Business streamlines recruitment and learning & development process
                     </p>
                    
                 </Styled.Title>
                 <Styled.Content>
                     <Styled.CardWrapper>
-                        <Styled.CardItem  data-aos='fade-up' data-aos-delay='500' data-aos-duration='750'>
+                        <Styled.CardItem  >
                             <Styled.CardHead>
                                 <img src="/static/img/pages/design-1.png" alt="" />
                             </Styled.CardHead>
@@ -32,7 +32,7 @@ const DesignSection = () => {
                                 </p>
                             </Styled.CardBody>  
                         </Styled.CardItem>
-                        <Styled.CardItem  data-aos='fade-up' data-aos-delay='900' data-aos-duration='750'>
+                        <Styled.CardItem >
                             <Styled.CardHead>
                                 <img src="/static/img/pages/design-2.png" alt="" />
                             </Styled.CardHead>
@@ -45,7 +45,7 @@ const DesignSection = () => {
                                 </p>
                             </Styled.CardBody>  
                         </Styled.CardItem>
-                        <Styled.CardItem  data-aos='fade-up' data-aos-delay='1300' data-aos-duration='750'>
+                        <Styled.CardItem  >
                             <Styled.CardHead>
                                 <img src="/static/img/pages/design-3.png" alt="" />
                             </Styled.CardHead>

@@ -85,10 +85,10 @@ const CustomizedSection = () => {
         <Styled.SectionWrapper background={background}>
             <Container>
                 <Styled.TitleWrapper>
-                    <Styled.TitleWrapperH1 data-aos='zoom-out' data-aos-delay='100' data-aos-duration='750'>
+                    <Styled.TitleWrapperH1 >
                         Customized content for your industry
                     </Styled.TitleWrapperH1>
-                    <Styled.TitleWrapperP data-aos='zoom-out' data-aos-delay='200' data-aos-duration='750'>
+                    <Styled.TitleWrapperP >
                         Learning is all about context. That’s why we have a dedicated team of <br />
                         language experts always ready to create industry-relevant modules for you.
                     </Styled.TitleWrapperP>
@@ -198,12 +198,12 @@ const CustomizedSection = () => {
                             <h5>
                                 {quote.quotes.text}
                             </h5>
-                            {quote.quotes.link == undefined ? "" : <p>
-                                {quote.quotes.link.text}
-                                <a href={quote.quotes.link.link}>
+                            {quote.quotes.link == undefined ? "" : <a href={quote.quotes.link.link}>
+                                <p>
+                                    {quote.quotes.link.text}
                                     <img src="/static/img/icons/next-icon.png" alt="" />
-                                </a>
-                            </p>}
+
+                                </p></a>}
                         </Styled.QuoteWrapperTitle>
                         <Styled.QuoteWrapperMain >
                             <svg width="28" height="19" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg">

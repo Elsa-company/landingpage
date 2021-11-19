@@ -23,18 +23,18 @@ const Company = () => {
             </animated.div>
             <Container>
                 <Styled.InfoHead>
-                    <Styled.InfoHeadH1 data-aos-delay='0' data-aos-duration='750'>A personal AI English speaking coach for each employee</Styled.InfoHeadH1>
-                    <Styled.InfoHeadP data-aos-delay='300' data-aos-duration='750'>ELSA helps your employees improve confidence and <br />
+                    <Styled.InfoHeadH1>A personal AI English speaking coach for each employee</Styled.InfoHeadH1>
+                    <Styled.InfoHeadP >ELSA helps your employees improve confidence and <br />
                         speaking skills in as little as 3 months. No class needed.</Styled.InfoHeadP>
                 </Styled.InfoHead>
 
                 <Styled.InfoCardWrapper>
-                    <Styled.InfoCardWrapperTitle data-aos-delay='500' data-aos-duration='750'>
-                        <Styled.InfoCardWrapperTitleH2>ELSA has been used by 15M+ users <br />
-                            from 100+ countries in the world</Styled.InfoCardWrapperTitleH2>
+                    <Styled.InfoCardWrapperTitle>
+                        <Styled.InfoCardWrapperTitleH2>ELSA has been used by 20M+ users <br />
+                         from 100+ countries in the world</Styled.InfoCardWrapperTitleH2>
                     </Styled.InfoCardWrapperTitle>
                     <Styled.CardGroup>
-                        <Styled.CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                        <Styled.CardGroupItem>
                             <Styled.CardGroupItemPercent>
                                 90%
                             </Styled.CardGroupItemPercent>
@@ -42,7 +42,7 @@ const Company = () => {
                                 saw an improvement in pronunciation
                             </Styled.CardGroupItemContent>
                         </Styled.CardGroupItem>
-                        <Styled.CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                        <Styled.CardGroupItem>
                             <Styled.CardGroupItemPercent>
                                 68%
                             </Styled.CardGroupItemPercent>
@@ -50,7 +50,7 @@ const Company = () => {
                                 felt they spoke more clearly
                             </Styled.CardGroupItemContent>
                         </Styled.CardGroupItem>
-                        <Styled.CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                        <Styled.CardGroupItem>
                             <Styled.CardGroupItemPercent>
                                 95%
                             </Styled.CardGroupItemPercent>
@@ -58,8 +58,6 @@ const Company = () => {
                                 expressed higher confidence in speaking english
                             </Styled.CardGroupItemContent>
                         </Styled.CardGroupItem>
-
-
                     </Styled.CardGroup>
                 </Styled.InfoCardWrapper>
                 <Styled.InfoFooter>

@@ -9,12 +9,12 @@ const StoriesSection = () => {
         <Element name="customer-stories">
             <Styled.SectionWrapper background={background}>
                 <Container>
-                    <Styled.Title data-aos='fade-up' data-aos-delay='100' data-aos-duration='750'>
+                    <Styled.Title>
                         Success stories
                     </Styled.Title>
 
                     <Styled.EducationWrapper>
-                        <Styled.EducationItem data-aos='fade-up' data-aos-delay='400' data-aos-duration='750'>
+                        <Styled.EducationItem >
                             <Styled.EducationThumb>
                                 <img src="/static/img/pages/education-1.png" alt="" />
                             </Styled.EducationThumb>
@@ -35,7 +35,7 @@ const StoriesSection = () => {
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
                         </Styled.EducationItem>
-                        <Styled.EducationItem data-aos='fade-up' data-aos-delay='400' data-aos-duration='750'>
+                        <Styled.EducationItem >
                             <Styled.EducationThumb>
                                 <img src="/static/img/pages/education-2.png" alt="" />
                             </Styled.EducationThumb>
@@ -56,7 +56,7 @@ const StoriesSection = () => {
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
                         </Styled.EducationItem>
-                        <Styled.EducationItem data-aos='fade-up' data-aos-delay='400' data-aos-duration='750'>
+                        <Styled.EducationItem >
                             <Styled.EducationThumb>
                                 <img src="/static/img/pages/education-3.png" alt="" />
                             </Styled.EducationThumb>
@@ -79,12 +79,12 @@ const StoriesSection = () => {
                         </Styled.EducationItem>
                     </Styled.EducationWrapper>
 
-                    <Styled.Title data-aos='fade-up' data-aos-delay='1000' data-aos-duration='750'>
+                    <Styled.Title >
                         Awards and Recognitions
                     </Styled.Title>
 
                     <Styled.AwardsWrapper>
-                        <Styled.AwardsItem data-aos='fade-up' data-aos-delay='1000' data-aos-duration='750'>
+                        <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
                                 <img src="/static/img/pages/awards-1.png" alt="" />
                             </Styled.AwardsItemThumb>
@@ -92,7 +92,7 @@ const StoriesSection = () => {
                                 Top 4 companies using AI to transform the world
                             </Styled.AwardsItemBody>
                         </Styled.AwardsItem>
-                        <Styled.AwardsItem data-aos='fade-up' data-aos-delay='1600' data-aos-duration='750'>
+                        <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
                                 <img src="/static/img/pages/awards-2.png" alt="" />
                             </Styled.AwardsItemThumb>
@@ -100,7 +100,7 @@ const StoriesSection = () => {
                                 Most Innovative Artificial Intelligence Startups
                             </Styled.AwardsItemBody>
                         </Styled.AwardsItem>
-                        <Styled.AwardsItem data-aos='fade-up' data-aos-delay='2100' data-aos-duration='750'>
+                        <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
                                 <img src="/static/img/pages/awards-3.png" alt="" />
                             </Styled.AwardsItemThumb>

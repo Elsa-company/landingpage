@@ -8,7 +8,7 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>FOR INDIVIDUALS</li>
 					<li>
-						<a href="https://elsaspeak.com/en/product" target="_blank">ELSA Pro Subscription  </a>
+						<a href="http://elsaspeak.com/en/product/" target="_blank">ELSA Pro Subscription  </a>
 					</li>
 					<li>
 						<a href="https://elsaspeak.com/en/product" target="_blank" >ELSA as a Gift</a>
@@ -22,11 +22,11 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>for organizations</li>
 					<li>
-						<a href="https://elsaspeak.com/en/english-for-schools/homepage" target="_blank">English for Schools</a>
+						<a href="https://elsaspeak.com/en/schools/homepage" target="_blank">English for Schools</a>
 
 					</li>
 					<li>
-						<a href="https://elsaspeak.com/en/english-for-companies/homepage" target="_blank">English for Companies</a>
+						<a href="https://elsaspeak.com/b2b/homepage" target="_blank">English for Companies</a>
 					</li>
 					<li>
 						<a href="https://elsaspeak.com/en/english-for-companies/demo" target="_blank">ELSA API</a>
@@ -38,7 +38,7 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>COMPANY</li>
 					<li>
-						<a href="https://elsaspeak.com/introduce" target="_blank">About us</a>
+						<a href="http://elsaspeak.com/about-us" target="_blank">About us</a>
 
 					</li>
 					<li>

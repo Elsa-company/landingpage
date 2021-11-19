@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#WB-408] Main Website - Homepage - Mobile Optimization</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://elsacorp.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WB-408]&nbsp;<a href="https://elsacorp.atlassian.net/browse/WB-408">Main Website - Homepage - Mobile Optimization</a>
+            <span class="subText">
+               Created: 21/Sep/21                   &nbsp;Updated: 17/Nov/21
+
+                                    &nbsp;Due: 04/Oct/21
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Closed</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://elsacorp.atlassian.net/secure/BrowseProject.jspa?id=10057">Website</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                                        <a title="WEB - WEB"
+                href="https://elsacorp.atlassian.net/issues/?jql=project%3D10057%20AND%20%22component%22%3D10082%20ORDER%20BY%20priority%20ASC"
+            >WEB</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="604ecd5d695c3900703ef954"
+                id="word_reporter_604ecd5d695c3900703ef954"
+                href="https://elsacorp.atlassian.net/secure/ViewProfile.jspa?accountId=604ecd5d695c3900703ef954">
+                    Truc Trinh
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="60c70d00758a5d006aaa129b"
+                id="word_assignee_60c70d00758a5d006aaa129b"
+                href="https://elsacorp.atlassian.net/secure/ViewProfile.jspa?accountId=60c70d00758a5d006aaa129b">
+                    Samah Muhammed
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-25059-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            sprint20                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Screen Shot 2021-09-24 at 11.49.30 AM.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210921-092832.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210921-094343.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210921-094419.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210921-094502.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210921-094604.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-051348.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-051639.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-052107.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-052724.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-062123.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210924-071821.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210928-091600.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210928-093006.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://elsacorp.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-20210928-093034.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://elsacorp.atlassian.net/browse/WB-427">
+                     WB-427                 </a>
+            </td>
+            <td>
+                Homepage - Hero Banner - Animation Up...
+            </td>
+            <td>
+                Open
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-25059-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-5" href="https://elsacorp.atlassian.net/browse/WB-306">
+        Main Website Revamp
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10021-25059-value" class="value" bgcolor="#ffffff" width="80%">WEB-2021.20</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-25059-value" class="value" bgcolor="#ffffff" width="80%">          <span title="28/Sep/21"><time datetime="2021-09-28">28/Sep/21</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10023-25059-value" class="value" bgcolor="#ffffff" width="80%">    2
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Adapt the newly released Homepage to properly displayed on mobile devices</p>
+
+<p>Figma: <a href="https://www.figma.com/file/i0fGNmUhxK5qKn4W2LwoUx/Website-Feedback-Nick-So?node-id=279%3A5330" title="smart-link" class="external-link" rel="nofollow noreferrer">https://www.figma.com/file/i0fGNmUhxK5qKn4W2LwoUx/Website-Feedback-Nick-So?node-id=279%3A5330</a> </p>
+
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Feature</b></th>
+<th class='confluenceTh'><b>Details</b></th>
+<th class='confluenceTh'><b>Image</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Navigation bar</td>
+<td class='confluenceTd'><ol>
+	<li>Logo: embed link to return to Homepage</li>
+	<li>Hamburger menu to collapse/expand for links to other pages:<br/>
+Product: link to Pro Subscription <a href="http://elsaspeak.com/en/product/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/en/product/</a> <br/>
+Learn English: </li>
+</ol>
+<ul>
+	<li>How to Pronounce: <a href="https://elsaspeak.com/en/learn-english/how-to-pronounce" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/learn-english/how-to-pronounce</a></li>
+	<li>Experience ELSA <a href="https://elsaspeak.com/experience" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/experience</a><br/>
+ELSA for Companies - Link to <a href="https://elsaspeak.com/b2b/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/b2b/homepage</a></li>
+	<li>Plans - Link to <a href="https://elsaspeak.com/b2b/plans?lang=en" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/b2b/plans?lang=en</a></li>
+	<li>Partner Login - Link to <a href="https://partner.elsaspeak.com/login" class="external-link" rel="nofollow noreferrer">https://partner.elsaspeak.com/login</a><br/>
+ELSA for Schools - Link to <a href="https://elsaspeak.com/en/schools/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/schools/homepage</a></li>
+	<li>Plans - Link to <a href="https://elsaspeak.com/en/schools/plans" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/schools/plans</a></li>
+	<li>Free Gifts for Educators - Link to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform" class="external-link" rel="nofollow noreferrer">https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform</a><br/>
+Blogs - Link to <a href="https://blog.elsaspeak.com/en/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://blog.elsaspeak.com/en/</a><br/>
+Language filter</li>
+</ul>
+</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30662/30662_image-20210921-092832.png" height="1624" width="750" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Hero Banner</td>
+<td class='confluenceTd'><ol>
+	<li>At the top of the fold, under Navigation Bar, a banner for “Free Gift for Educators”.  Clicking on “Click Here&#33;” button → leads to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform" class="external-link" rel="nofollow noreferrer">https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform</a><br/>
+<b>When users scroll through the page, this banner should be pinned at the top of the screen.</b> (As the example in this screen shot)</li>
+	<li>Text is center-aligned.</li>
+	<li>CTA: Try for Free =&gt; leads to Pro Subscription Page <a href="http://elsaspeak.com/en/product/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/en/product/</a></li>
+	<li>Add animation.</li>
+</ol>
+</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30855/30855_Screen+Shot+2021-09-24+at+11.49.30+AM.png" width="33.33333333333333%" style="border: 0px solid black" /></span><br/>
+The “Free Gift for Educators” banner pinned at the top and moves along when scrolling through the page.<br/>
+<span class="image-wrap" style=""><img src="/secure/attachment/30861/30861_image-20210924-062123.png" width="25%" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Slicer</td>
+<td class='confluenceTd'><ol>
+	<li>Image: center-aligned.<br/>
+<del>Update position of left/right arrow buttons</del><br/>
+Swiping from right to left will take you to the 2nd benefit page. Swiping again will take you to the 3rd benefit page, etc. Once on the 5th benefit page (the last page), continue swiping will take you back to the 1st benefit page.<br/>
+Similarly, starting on the 1st benefit page – swiping from left to right will take you to the 5th benefit page. Swiping again will take you to the 4th benefit page. Etc. etc.</li>
+</ol>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><b>NOTE: when users swipe through these images, the images change but the mobile frames should remain the same position.</b> <br/>
+2. Text: center-aligned. Avoid dropping line with just 1 word. Avoid format break.</p>
+
+<p>3. There are five, small bubbles. These bubbles should indicate which benefits page you are on (e.g., 2nd benefit page means 2nd bubble should be filled in)</p>
+
+<p>4. Links for download buttons<br/>
+On the left should be the Apple Store download button. Clicking on the Apple Store button should take you to ELSA’s Apple Store webpage (<a href="https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886" title="smart-link" class="external-link" rel="nofollow noreferrer">https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886</a> )<br/>
+On the right should be the Google Play Store download button. Clicking on the Google Play Store button should take you to ELSA’s Google Play Store webpage (<a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa&amp;hl=en_US&amp;gl=US" title="smart-link" class="external-link" rel="nofollow noreferrer">https://play.google.com/store/apps/details?id=us.nobarriers.elsa&amp;hl=en_US&amp;gl=US</a> )|<span class="image-wrap" style=""><img src="/secure/attachment/31017/31017_image-20210928-091600.png" height="602" width="251" style="border: 0px solid black" /></span><br/>
+(There will be five pages for benefits. This screenshot is only showing one of the benefits pages.)|</p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Science behind ELSA</td>
+<td class='confluenceTd'>Left aligned this description section.</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30853/30853_image-20210924-051348.png" height="350" width="308" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Science behind ELSA</td>
+<td class='confluenceTd'>Center aligned for 3 sub-point of this section.</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30669/30669_image-20210921-094343.png" height="427" width="293" style="border: 0px solid black" /></span><br/>
+<span class="image-wrap" style=""><img src="/secure/attachment/30671/30671_image-20210921-094419.png" width="33.33333333333333%" style="border: 0px solid black" /></span><br/>
+<span class="image-wrap" style=""><img src="/secure/attachment/30667/30667_image-20210921-094502.png" height="504" width="290" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>ELSA by the Numbers</td>
+<td class='confluenceTd'>All elements of this section are center-aligned (text, boxes, numbers, images)<br/>
+This part is not clickable.</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30866/30866_image-20210924-071821.png" height="719" width="202" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>ELSA Statistics</td>
+<td class='confluenceTd'>Text and images are center-aligned.<br/>
+This part is not clickable.</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30857/30857_image-20210924-051639.png" height="630" width="301" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Experience ELSA</td>
+<td class='confluenceTd'>Link all CTA to Experience ELSA flow.</td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30670/30670_image-20210921-094604.png" height="601" width="154" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>CTAs</td>
+<td class='confluenceTd'>Learn More About ELSA Pro =&gt; link to link to Pro Subscription page  <a href="http://elsaspeak.com/en/product/" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/en/product/</a></td>
+<td class='confluenceTd'><span class="image-wrap" style=""><img src="/secure/attachment/30859/30859_image-20210924-052107.png" height="390" width="211" style="border: 0px solid black" /></span></td>
+</tr>
+<tr>
+<td class='confluenceTd'>ELSA Business Suite</td>
+<td class='confluenceTd'><ol>
+	<li>ELSA for Business:<br/>
+Get A Quote: link to <a href="https://elsaspeak.com/b2b/plans?lang=en" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/b2b/plans?lang=en</a><br/>
+Learn More: - Link to <a href="https://elsaspeak.com/b2b/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/b2b/homepage</a></li>
+</ol>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p>2. ELSA for Schools: <br/>
+Bring ELSA to Your Classroom - Link to <a href="https://elsaspeak.com/en/schools/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/schools/homepage</a><br/>
+Free Gifts for Educators - Link to <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform" class="external-link" rel="nofollow noreferrer">https://docs.google.com/forms/d/e/1FAIpQLSfEYuyD0KXCv8tBjcr6-Y-DN8sOTm1Xx6b2iLvhNaqaKVR4_g/viewform</a></p>
+
+<p>3. ELSA API:<br/>
+Get the API: <a href="https://elsaspeak.com/en/english-for-companies/demo" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/english-for-companies/demo</a> </p>
+
+<p><b>NOTE</b>: all elements of this section are center-aligned (text, CTAs, images.|<span class="image-wrap" style=""><img src="/secure/attachment/31016/31016_image-20210928-093006.png" height="748" width="191" style="border: 0px solid black" /></span>|</p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Testimonials + As Seen In</td>
+<td class='confluenceTd'>Slicers for testimonials.  Use the same quotes as on the Homepage.<br/>
+Reposition the arrow buttons.<br/>
+This slicer is manually controlled.</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p>Display logo of media for As Seen In part|<span class="image-wrap" style=""><img src="/secure/attachment/31015/31015_image-20210928-093034.png" height="642" width="259" style="border: 0px solid black" /></span>|</p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Footer</td>
+<td class='confluenceTd'>Links routed to the correct location<br/>
+Logo: move to top of page<br/>
+Clicking on the Apple Store button should take you to ELSA’s Apple Store webpage (<a href="https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886" title="smart-link" class="external-link" rel="nofollow noreferrer">https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886</a> )<br/>
+Clicking on the Google Play Store button should take you to ELSA’s Google Play Store webpage (<a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa&amp;hl=en_US&amp;gl=US" title="smart-link" class="external-link" rel="nofollow noreferrer">https://play.google.com/store/apps/details?id=us.nobarriers.elsa&amp;hl=en_US&amp;gl=US</a> )<br/>
+For Individuals 
+<ol>
+	<li>ELSA Pro Subscription - Pro Subscription <a href="http://elsaspeak.com/en/product/" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/en/product/</a></li>
+	<li>ELSA as a Gift - Pro Subscription <a href="http://elsaspeak.com/en/product/" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/en/product/</a></li>
+	<li>ELSA Instant (Chrome plug-in) - clicking on this link should take user to ELSA Instant (<a href="https://elsaspeak.com/elsa-instant" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/elsa-instant</a> )</li>
+</ol>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p>For Organizations:</p>
+<ol>
+	<li>English for Schools - <a href="https://elsaspeak.com/en/schools/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/schools/homepage</a></li>
+	<li>English for Business - <a href="https://elsaspeak.com/b2b/homepage" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/b2b/homepage</a></li>
+	<li>ELSA API - <a href="https://elsaspeak.com/en/english-for-companies/demo" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/english-for-companies/demo</a></li>
+	<li>Channel Partners - TBD<br/>
+Company:</li>
+	<li>About Us - clicking on this link should take user to “About Us” webpage (<a href="http://elsaspeak.com/about-us" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/about-us</a> )</li>
+	<li>Careers - clicking on this link should take user to “Careers” webpage (<a href="http://elsaspeak.com/careers" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/careers</a> ).</li>
+	<li>Affiliates:  clicking on this link should take user to “Channel Partner” webpage <a href="https://elsaspeak.com/en/affiliates" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/en/affiliates</a></li>
+	<li>Blog - clicking on this link should take user to “Blog” webpage (<a href="http://elsaspeak.com/blog" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/blog</a> )<br/>
+Customer Help</li>
+	<li>FAQs - clicking on this link should take user to “FAQs” webpage (<a href="http://elsaspeak.com/faq" title="smart-link" class="external-link" rel="nofollow noreferrer">http://elsaspeak.com/faq</a> ) which is currently being designed.</li>
+	<li>Contact Us - clicking on this link should take user to the “Contact Us” webpage (<a href="http://elsaspeak.com/contact-us" class="external-link" rel="nofollow noreferrer">elsaspeak.com/contact-us</a>)</li>
+	<li>Redeem Code - clicking on this link should take user to “Redeem a code” webpage that is currently being designed (<a href="http://elsaspeak.com/code" class="external-link" rel="nofollow noreferrer">elsaspeak.com/code</a>)</li>
+</ol>
+
+
+
+<ul>
+	<li>© 2021 ELSA. All Rights Reserved | Privacy<br/>
+NOTE: Clicking on “Privacy” should take user to ELSA’s privacy page (<a href="https://elsaspeak.com/privacy" title="smart-link" class="external-link" rel="nofollow noreferrer">https://elsaspeak.com/privacy</a> )</li>
+	<li>Facebook Logo - should <ins>open a new tab</ins> and take user to ELSA’s Facebook page (<a href="https://www.facebook.com/elsaspeak/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://www.facebook.com/elsaspeak/</a> )</li>
+	<li>Instagram Logo - should <ins>open a new tab</ins> and take user to ELSA’s Instagram page (<a href="https://www.instagram.com/elsa_speak/" class="external-link" rel="nofollow noreferrer">https://www.instagram.com/elsa_speak/</a>)</li>
+	<li>Twitter Logo - should <ins>open a new tab</ins> and take user to ELSA’s Twitter page (<a href="https://twitter.com/elsa_speak?lang=en" class="external-link" rel="nofollow noreferrer">https://twitter.com/elsa_speak</a>)</li>
+	<li>YouTube Logo - should <ins>open a new tab</ins> and take user to ELSA’s YouTube page (<a href="https://www.youtube.com/channel/UC-ytFRrtZ2s3xASXa47VDiQ" title="smart-link" class="external-link" rel="nofollow noreferrer">https://www.youtube.com/channel/UC-ytFRrtZ2s3xASXa47VDiQ</a> )|<span class="image-wrap" style=""><img src="/secure/attachment/30860/30860_image-20210924-052724.png" height="592" width="357" style="border: 0px solid black" /></span>|
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>QA</td>
+<td class='confluenceTd'>Links routed to the correct location<br/>
+Animation runs smoothly, without major delay.<br/>
+Proper alignment<br/>
+No overlapping images, text,<br/>
+No cutting off information/images<br/>
+No unintentional empty space<br/>
+Correct Typography, Color<br/>
+Stay true to design</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed Nov 17 12:35:00 UTC 2021 by Thanh Chu using Jira 1001.0.0-SNAPSHOT#100183-sha1:ce6a64bc4e5e587ee4afbffb97bb180229bed914.
+
+</body>
+</html>
