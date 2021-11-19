@@ -17,6 +17,7 @@ export const TitleWrapperH1 = styled.div`
     font-size: 36px;
     color: #333;
     margin-bottom: 25px;
+    font-weight: 600;
 `
 
 export const TitleWrapperP = styled.div`

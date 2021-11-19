@@ -44,20 +44,21 @@ const Company = () => {
                         </Styled.CardGroupItem>
                         <Styled.CardGroupItem>
                             <Styled.CardGroupItemPercent>
-                                68%
-                            </Styled.CardGroupItemPercent>
-                            <Styled.CardGroupItemContent>
-                                felt they spoke more clearly
-                            </Styled.CardGroupItemContent>
-                        </Styled.CardGroupItem>
-                        <Styled.CardGroupItem>
-                            <Styled.CardGroupItemPercent>
                                 95%
                             </Styled.CardGroupItemPercent>
                             <Styled.CardGroupItemContent>
                                 expressed higher confidence in speaking english
                             </Styled.CardGroupItemContent>
                         </Styled.CardGroupItem>
+                        <Styled.CardGroupItem>
+                            <Styled.CardGroupItemPercent>
+                                68%
+                            </Styled.CardGroupItemPercent>
+                            <Styled.CardGroupItemContent>
+                                felt they spoke more clearly
+                            </Styled.CardGroupItemContent>
+                        </Styled.CardGroupItem>
+                        
                     </Styled.CardGroup>
                 </Styled.InfoCardWrapper>
                 <Styled.InfoFooter>

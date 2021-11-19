@@ -26,12 +26,14 @@ const HeaderDefault = () => {
 								</LinkScroll>
 							</div> */}
 							<div className="menu-item">
-								<LinkScroll to="pricing" spy={true} smooth={true} offset={-100} duration={1500}>
+								<a href="https://elsaspeak.com/en/english-for-companies/plans" target="_blank">
 									Pricing
-								</LinkScroll>
+								</a>
 							</div>
 							<div className="menu-item">
-								Login
+								<a href="https://partner.elsaspeak.com/login" target="_blank">
+									Login
+								</a>
 							</div>
 							<div className="menu-item">
 								<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
