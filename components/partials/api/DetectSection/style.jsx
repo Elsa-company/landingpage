@@ -45,8 +45,9 @@ export const GroupCard = styled.div`
 export const Card = styled.div`
     box-shadow: 0px 22px 34px 10px rgba(0, 0, 0, 0.05);
     border-radius: 32px;
-
-    
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 `
 
 export const CardHead = styled.div`
@@ -75,6 +76,7 @@ export const CardContent = styled.div`
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 `
 
 export const ContentImage = styled.div`
