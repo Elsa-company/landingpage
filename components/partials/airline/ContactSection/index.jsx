@@ -40,10 +40,7 @@ const ContactSection = () => {
                                         <p>
                                             <a href="https://elsaspeak.com/en/product" target="_blank">
                                                 Using ELSA as an individual?
-                                                <LazyLoad>
-                                                    <img src="/static/img/icons/next-icon.png" alt="Next Icon Elsa" />
-                                                </LazyLoad>
-
+                                                <img src="/static/img/icons/next-icon.png" alt="Next Icon Elsa" />
                                             </a>
 
                                         </p>

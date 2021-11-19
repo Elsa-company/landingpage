@@ -8,7 +8,7 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>FOR INDIVIDUALS</li>
 					<li>
-						<a href="http://elsaspeak.com/en/product/" target="_blank">ELSA Pro Subscription  </a>
+						<a href="https://elsaspeak.com/en/product" target="_blank">ELSA Pro Subscription  </a>
 					</li>
 					<li>
 						<a href="https://elsaspeak.com/en/product" target="_blank" >ELSA as a Gift</a>
