@@ -27,14 +27,14 @@ const StoriesSection = () => {
                                         <button>IT & Consulting</button>
                                     </Styled.EducationContentHeadButton>
                                     <Styled.EducationContentHeadTitle>
-                                        RICE students increased their pronunciation score by 14% with ELSA
+                                    NashTech saw an improvement in spoken English of 93% of their employees
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 <Styled.EducationContentFooter>
-                                    <p>
+                                    {/* <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="" />
-                                    </p>
+                                    </p> */}
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
                         </Styled.EducationItem>
@@ -55,10 +55,10 @@ const StoriesSection = () => {
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 <Styled.EducationContentFooter>
-                                    <p>
+                                    {/* <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="" />
-                                    </p>
+                                    </p> */}
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
                         </Styled.EducationItem>
@@ -79,10 +79,10 @@ const StoriesSection = () => {
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 <Styled.EducationContentFooter>
-                                    <p>
+                                    {/* <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="Next Icon" />
-                                    </p>
+                                    </p> */}
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
                         </Styled.EducationItem>

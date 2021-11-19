@@ -22,9 +22,10 @@ export const InfoHeadH1 = styled.h1`
 
 
 export const InfoHeadP = styled.p`
- font-size: 24px;
-            text-align: center;
-            color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
 `
 
 export const InfoCardWrapper = styled.div`
@@ -89,7 +90,7 @@ color: #fff;
             text-align: center;
 `
 
-export const Globe = styled(animated.div) ` 
+export const Globe = styled(animated.div)` 
     position: absolute;
         right: 0;
         top: 40px;

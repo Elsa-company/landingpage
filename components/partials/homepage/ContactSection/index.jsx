@@ -33,7 +33,7 @@ const ContactSection = () => {
                                             <Select.Option value="2">I represent a private language school </Select.Option>
                                             <Select.Option value="2">I am a private tutor </Select.Option>
                                             <Select.Option value="2">I am a teacher at an education institution </Select.Option>
-                                            <Select.Option value="2">Other:</Select.Option>
+                                            <Select.Option value="2">Other</Select.Option>
                                         </Select>
                                     </Form.Item>
                                     <p>

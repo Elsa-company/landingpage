@@ -19,7 +19,7 @@ const Homepage = () => {
 				<InfoSection />
 				<CustomizedSection />
 				<DesignSection />
-				{/* <StoriesSection /> */}
+				<StoriesSection />
 				<ContactSection />
 			</div>
 		</ContainerPage>
