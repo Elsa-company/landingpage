@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import Slider from "react-slick";
-
+import LazyLoad from 'react-lazyload';
 import img1 from '~/public/static/img/pages/1.png'
 import img2 from '~/public/static/img/pages/2.png'
 import img3 from '~/public/static/img/pages/3.png'
@@ -43,15 +43,15 @@ const Company = () => {
             <Container>
                 <Gallery>
                     <Slider {...settings}>
-                        <img src={img1} alt="" />
-                        <img src={img2} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img4} alt="" />
-                        <img src={img5} alt="" />
-                        <img src={img6} alt="" />
-                        <img src={img7} alt="" />
-                        <img src={img8} alt="" />
-                        <img src={img9} alt="" />
+                        <img src={img1} alt="Company slide 1" />
+                        <img src={img2} alt="Company slide 2" />
+                        <img src={img3} alt="Company slide 3" />
+                        <img src={img4} alt="Company slide 4" />
+                        <img src={img5} alt="Company slide 5" />
+                        <img src={img6} alt="Company slide 6" />
+                        <img src={img7} alt="Company slide 7" />
+                        <img src={img8} alt="Company slide 8" />
+                        <img src={img9} alt="Company slide 9" />
                     </Slider>
                 </Gallery>
                 <Traditional>
@@ -72,7 +72,10 @@ const Company = () => {
                     </TraditionalLeft>
                     <TraditionalRight>
                         <animated.div style={{ ...styles }}>
-                            <img src={companyPhone} alt="Elsa two phones" />
+                            <LazyLoad>
+                                <img src={companyPhone} alt="Elsa two phones" />
+                            </LazyLoad>
+
                         </animated.div>
 
                     </TraditionalRight>

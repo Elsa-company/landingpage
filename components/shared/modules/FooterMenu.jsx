@@ -89,12 +89,12 @@ const FooterMenu = () => {
 					<li className='title'>DOWNLOAD</li>
 					<li>
 						<a href='https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886' target="_blank">
-							<img src="/static/img/pages/download-apple.png" alt="" />
+							<img src="/static/img/pages/download-apple.png" alt="Apple Download" />
 						</a>
 					</li>
 					<li>
 						<a href='https://play.google.com/store/apps/details?id=us.nobarriers.elsa&hl=en_US&gl=US' target="_blank">
-							<img src="/static/img/pages/download-chplay.png" alt="" />
+							<img src="/static/img/pages/download-chplay.png" alt="CHPlay Download" />
 						</a>
 					</li>
 				</ul>

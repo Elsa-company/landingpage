@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, Input, Button, Select } from 'antd';
 import { Element } from 'react-scroll';
 import COUNTRY_CODE from '~/constant/countryCode';
+import LazyLoad from 'react-lazyload';
 import {
     SectionWrapper,
     Title,
@@ -42,7 +43,10 @@ const HomeDefaultBanner = ({ giveaway }) => {
                 <GroupCompany>
                     <Company>
                         <CompanyThumb>
-                            <img src={company1} alt="Company 1" />
+                            <LazyLoad>
+                                <img src={company1} alt="Top 4 companies using AI to transform the world" />
+                            </LazyLoad>
+
                         </CompanyThumb>
                         <CompanyDesc>
                             <p>Top 4 companies using AI to transform the world</p>
@@ -50,7 +54,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                     </Company>
                     <Company>
                         <CompanyThumb>
-                            <img src={company2} alt="Company 1" />
+                            <LazyLoad>
+                                <img src={company2} alt="Backed by Google Gradient Ventures" />
+                            </LazyLoad>
                         </CompanyThumb>
                         <CompanyDesc>
                             <p>Backed by Google Gradient Ventures</p>
@@ -58,7 +64,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                     </Company>
                     <Company>
                         <CompanyThumb>
-                            <img src={company3} alt="Company 1" />
+                            <LazyLoad>
+                                <img src={company3} alt="Most Innovative Artificial Intelligence Startups" />
+                            </LazyLoad>
                         </CompanyThumb>
                         <CompanyDesc>
                             <p>Most Innovative Artificial Intelligence Startups</p>
@@ -73,13 +81,27 @@ const HomeDefaultBanner = ({ giveaway }) => {
                 </Title>
 
                 <GroupAward>
-                    <img src={award1} alt="" />
-                    <img src={award2} alt="" />
-                    <img src={award3} alt="" />
-                    <img src={award4} alt="" />
-                    <img src={award5} alt="" />
-                    <img src={award6} alt="" />
-                    <img src={award7} alt="" />
+                    <LazyLoad>
+                        <img src={award1} alt="Group Award 1" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award2} alt="Group Award 2" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award3} alt="Group Award 3" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award4} alt="Group Award 4" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award5} alt="Group Award 5" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award6} alt="Group Award 6" />
+                    </LazyLoad>
+                    <LazyLoad>
+                        <img src={award7} alt="Group Award 7" />
+                    </LazyLoad>
 
                 </GroupAward>
 

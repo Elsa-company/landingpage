@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import background from '~/public/static/img/bg/Airline-Section-2.png';
 import img1 from '~/public/static/img/pages/gallery-1.png';
 import img2 from '~/public/static/img/pages/gallery-2.png';
@@ -21,17 +22,24 @@ const GallerySection = ({ giveaway }) => {
             <Container>
                 <CardWrapper>
                     <CardImage >
-                        <img src={img1} alt="" />
+                        <LazyLoad>
+                            <img src={img1} alt="Gallery 1" />
+                        </LazyLoad>
+
                     </CardImage>
                 </CardWrapper>
                 <CardWrapper>
                     <CardImage>
-                        <img src={img2} alt="" />
+                        <LazyLoad>
+                            <img src={img2} alt="Gallery 2" />
+                        </LazyLoad>
                     </CardImage>
                 </CardWrapper>
                 <CardWrapper>
                     <CardImage>
-                        <img src={img3} alt="" />
+                        <LazyLoad>
+                            <img src={img3} alt="Gallery 3" />
+                        </LazyLoad>
                     </CardImage>
                 </CardWrapper>
             </Container>

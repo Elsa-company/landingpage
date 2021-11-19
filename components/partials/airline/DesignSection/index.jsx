@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import { Link as LinkScroll } from 'react-scroll'
-
+import LazyLoad from 'react-lazyload';
 import background from '~/public/static/img/bg/Airline-Section-3.png'
 import Container from '~/components/elements/Container';
 import * as Styled from './style'
@@ -46,7 +46,10 @@ const DesignSection = () => {
                     <Styled.CardWrapper>
                         <Styled.CardItem >
                             <Styled.CardHead>
-                                <img src="/static/img/pages/design-1.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/design-1.png" alt=" Engage your employees" />
+                                </LazyLoad>
+
                             </Styled.CardHead>
                             <Styled.CardBody>
                                 <h3>
@@ -59,7 +62,10 @@ const DesignSection = () => {
                         </Styled.CardItem>
                         <Styled.CardItem>
                             <Styled.CardHead>
-                                <img src="/static/img/pages/design-2.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/design-2.png" alt="Measure progress" />
+                                </LazyLoad>
+
                             </Styled.CardHead>
                             <Styled.CardBody>
                                 <h3>
@@ -72,7 +78,11 @@ const DesignSection = () => {
                         </Styled.CardItem>
                         <Styled.CardItem >
                             <Styled.CardHead>
-                                <img src="/static/img/pages/design-3.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/design-3.png" alt="Assess and train at scale" />
+                                </LazyLoad>
+
+
                             </Styled.CardHead>
                             <Styled.CardBody>
                                 <h3>
@@ -95,7 +105,10 @@ const DesignSection = () => {
                 <Styled.AwardsWrapper>
                     <Styled.AwardsItem  >
                         <Styled.AwardsItemThumb>
-                            <img src="/static/img/pages/awards-1.png" alt="" />
+                            <LazyLoad>
+                                <img src="/static/img/pages/awards-1.png" alt="Top 4 companies using AI to transform the world" />
+                            </LazyLoad>
+
                         </Styled.AwardsItemThumb>
                         <Styled.AwardsItemBody>
                             Top 4 companies using AI to transform the world
@@ -103,7 +116,10 @@ const DesignSection = () => {
                     </Styled.AwardsItem>
                     <Styled.AwardsItem >
                         <Styled.AwardsItemThumb>
-                            <img src="/static/img/pages/awards-2.png" alt="" />
+                            <LazyLoad>
+                                <img src="/static/img/pages/awards-2.png" alt="Most Innovative Artificial Intelligence Startups" />
+                            </LazyLoad>
+
                         </Styled.AwardsItemThumb>
                         <Styled.AwardsItemBody>
                             Most Innovative Artificial Intelligence Startups
@@ -111,7 +127,10 @@ const DesignSection = () => {
                     </Styled.AwardsItem>
                     <Styled.AwardsItem>
                         <Styled.AwardsItemThumb>
-                            <img src="/static/img/pages/awards-3.png" alt="" />
+                            <LazyLoad>
+                                <img src="/static/img/pages/awards-3.png" alt="World changing ideas in the year of 2020" />
+                            </LazyLoad>
+
                         </Styled.AwardsItemThumb>
                         <Styled.AwardsItemBody>
                             World changing ideas in the year of 2020
@@ -135,15 +154,33 @@ const DesignSection = () => {
 
                 <Styled.Gallery>
                     <Slider {...settings}>
-                        <img src={img1} alt="" />
-                        <img src={img2} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img4} alt="" />
-                        <img src={img5} alt="" />
-                        <img src={img6} alt="" />
-                        <img src={img7} alt="" />
-                        <img src={img8} alt="" />
-                        <img src={img9} alt="" />
+                        <LazyLoad>
+                            <img src={img1} alt="Design avatar item 1" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img2} alt="Design avatar item 2" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img3} alt="Design avatar item 3" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img4} alt="Design avatar item 4" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img5} alt="Design avatar item 5" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img6} alt="Design avatar item 6" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img7} alt="Design avatar item 7" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img8} alt="Design avatar item 8" />
+                        </LazyLoad>
+                        <LazyLoad>
+                            <img src={img9} alt="Design avatar item 9" />
+                        </LazyLoad>
                     </Slider>
                 </Styled.Gallery>
             </Container>

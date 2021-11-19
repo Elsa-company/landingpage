@@ -3,7 +3,7 @@ import Container from '~/components/elements/Container';
 import background from '~/public/static/img/bg/section-6.png';
 import * as Styled from './style'
 import { Element } from 'react-scroll';
-
+import LazyLoad from 'react-lazyload'
 const StoriesSection = () => {
     return (
         <Element name="customer-stories">
@@ -16,7 +16,10 @@ const StoriesSection = () => {
                     <Styled.EducationWrapper>
                         <Styled.EducationItem >
                             <Styled.EducationThumb>
-                                <img src="/static/img/pages/education-1.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/education-1.png" alt="IT & Consulting" />
+                                </LazyLoad>
+
                             </Styled.EducationThumb>
                             <Styled.EducationContent>
                                 <Styled.EducationContentHead>
@@ -37,7 +40,10 @@ const StoriesSection = () => {
                         </Styled.EducationItem>
                         <Styled.EducationItem >
                             <Styled.EducationThumb>
-                                <img src="/static/img/pages/education-2.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/education-2.png" alt="Education" />
+                                </LazyLoad>
+
                             </Styled.EducationThumb>
                             <Styled.EducationContent>
                                 <Styled.EducationContentHead>
@@ -58,7 +64,10 @@ const StoriesSection = () => {
                         </Styled.EducationItem>
                         <Styled.EducationItem >
                             <Styled.EducationThumb>
-                                <img src="/static/img/pages/education-3.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/education-3.png" alt="Organization" />
+                                </LazyLoad>
+
                             </Styled.EducationThumb>
                             <Styled.EducationContent>
                                 <Styled.EducationContentHead>
@@ -72,7 +81,7 @@ const StoriesSection = () => {
                                 <Styled.EducationContentFooter>
                                     <p>
                                         Read story
-                                        <img src="/static/img/icons/next-icon.png" alt="" />
+                                        <img src="/static/img/icons/next-icon.png" alt="Next Icon" />
                                     </p>
                                 </Styled.EducationContentFooter>
                             </Styled.EducationContent>
@@ -86,7 +95,10 @@ const StoriesSection = () => {
                     <Styled.AwardsWrapper>
                         <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
-                                <img src="/static/img/pages/awards-1.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/awards-1.png" alt="Top 4 companies using AI to transform the world" />
+                                </LazyLoad>
+
                             </Styled.AwardsItemThumb>
                             <Styled.AwardsItemBody>
                                 Top 4 companies using AI to transform the world
@@ -94,7 +106,10 @@ const StoriesSection = () => {
                         </Styled.AwardsItem>
                         <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
-                                <img src="/static/img/pages/awards-2.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/awards-2.png" alt="Most Innovative Artificial Intelligence Startups" />
+                                </LazyLoad>
+
                             </Styled.AwardsItemThumb>
                             <Styled.AwardsItemBody>
                                 Most Innovative Artificial Intelligence Startups
@@ -102,7 +117,10 @@ const StoriesSection = () => {
                         </Styled.AwardsItem>
                         <Styled.AwardsItem >
                             <Styled.AwardsItemThumb>
-                                <img src="/static/img/pages/awards-3.png" alt="" />
+                                <LazyLoad>
+                                    <img src="/static/img/pages/awards-3.png" alt="World changing ideas in the year of 2020" />
+                                </LazyLoad>
+
                             </Styled.AwardsItemThumb>
                             <Styled.AwardsItemBody>
                                 World changing ideas in the year of 2020

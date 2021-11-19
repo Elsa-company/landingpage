@@ -13,7 +13,7 @@ export const handleCountDown = endDate => {
 	const now = moment();
 	const countdown = moment(expirationDate - now);
 	const duration = moment.duration(countdown, 'milliseconds');
-
+	
 	// Day - hour - minute
 	const day = duration.days();
 	const hour = duration.hours();

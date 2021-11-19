@@ -1,6 +1,6 @@
 import React from 'react';
 import { Progress } from 'antd';
-
+import LazyLoad from 'react-lazyload';
 import background from '~/public/static/img/bg/APISection-2.png';
 import Container from '~/components/elements/Container';
 import tab1 from '~/public/static/img/pages/api-tabs-1.png'
@@ -133,10 +133,18 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                     <ScoreWrapper>
                                         <p>Here's how your ELSA Score relates to other English proficiency scoring systems</p>
                                         <ImageWrapper>
-                                            <img src={score1} alt="" />
-                                            <img src={score2} alt="" />
-                                            <img src={score3} alt="" />
-                                            <img src={score4} alt="" />
+                                            <LazyLoad>
+                                                <img src={score1} alt="Score 1" />
+                                            </LazyLoad>
+                                            <LazyLoad>
+                                                <img src={score2} alt="Score 1" />
+                                            </LazyLoad>
+                                            <LazyLoad>
+                                                <img src={score3} alt="Score 1" />
+                                            </LazyLoad>
+                                            <LazyLoad>
+                                                <img src={score4} alt="Score 1" />
+                                            </LazyLoad>
                                         </ImageWrapper>
                                     </ScoreWrapper>
                                 </TabScores>
@@ -151,7 +159,10 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </TitleWrapper>
                                 <TabStyleWrapper>
                                     <TabStyleLeft>
-                                        <img src={tab2score1} alt="" />
+                                        <LazyLoad>
+                                            <img src={tab2score1} alt="Tab 2 score 1" />
+                                        </LazyLoad>
+
                                     </TabStyleLeft>
                                     <TabStyleRight>
                                         <TabStyleRightItem>
@@ -160,7 +171,10 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             </TabStyleRightItemTitle>
 
                                             <TabStyleRightItemImage>
-                                                <img src={tab2score2} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab2score2} alt="Tab 2 score 2" />
+                                                </LazyLoad>
+
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>
@@ -169,7 +183,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                                 Areas for Improvement <img src={questionCircle} alt="" />
                                             </TabStyleRightItemTitle>
                                             <TabStyleRightItemImage>
-                                                <img src={tab2score3} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab2score3} alt="Tab 2 score 3" />
+                                                </LazyLoad>
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>
@@ -199,7 +215,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </TitleWrapper>
                                 <TabStyleWrapper>
                                     <TabStyleLeft>
-                                        <img src={tab3score1} alt="" />
+                                        <LazyLoad>
+                                            <img src={tab3score1} alt="Tab 3 score 1" />
+                                        </LazyLoad>
                                     </TabStyleLeft>
                                     <TabStyleRight>
                                         <TabStyleRightItem>
@@ -208,7 +226,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             </TabStyleRightItemTitle>
 
                                             <TabStyleRightItemImage>
-                                                <img src={tab3score2} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab3score2} alt="Tab 3 score 2" />
+                                                </LazyLoad>
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>
@@ -217,7 +237,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                                 Areas for Improvement <img src={questionCircle} alt="" />
                                             </TabStyleRightItemTitle>
                                             <TabStyleRightItemImage>
-                                                <img src={tab3score3} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab3score3} alt="Tab 3 score 3" />
+                                                </LazyLoad>
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>
@@ -251,7 +273,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </TitleWrapper>
                                 <TabStyleWrapper>
                                     <TabStyleLeft>
-                                        <img src={tab2score1} alt="" />
+                                        <LazyLoad>
+                                            <img src={tab2score1} alt="Tab 2 score 1" />
+                                        </LazyLoad>
                                     </TabStyleLeft>
                                     <TabStyleRight>
                                         <TabStyleRightItem>
@@ -260,7 +284,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             </TabStyleRightItemTitle>
 
                                             <TabStyleRightItemImage>
-                                                <img src={tab4score2} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab4score2} alt="Tab 4 score 2" />
+                                                </LazyLoad>
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>
@@ -312,7 +338,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </TitleWrapper>
                                 <TabStyleWrapper>
                                     <TabStyleLeft>
-                                        <img src={tab5score1} alt="" />
+                                        <LazyLoad>
+                                            <img src={tab5score1} alt="Tab 5 score 1" />
+                                        </LazyLoad>
                                     </TabStyleLeft>
                                     <TabStyleRight column="2">
                                         <TabStyleRightItem>
@@ -362,7 +390,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 </TitleWrapper>
                                 <TabStyleWrapper>
                                     <TabStyleLeft>
-                                        <img src={tab5score1} alt="" />
+                                        <LazyLoad>
+                                            <img src={tab5score1} alt="Tab 5 score 1" />
+                                        </LazyLoad>
                                     </TabStyleLeft>
                                     <TabStyleRight>
                                         <TabStyleRightItem>
@@ -371,7 +401,10 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             </TabStyleRightItemTitle>
 
                                             <TabStyleRightItemImage>
-                                                <img src={tab6score2} alt="" />
+                                                <LazyLoad>
+                                                    <img src={tab6score2} alt="Tab 6 score 2" />
+                                                </LazyLoad>
+
                                             </TabStyleRightItemImage>
 
                                         </TabStyleRightItem>

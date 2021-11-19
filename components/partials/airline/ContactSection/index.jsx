@@ -2,6 +2,7 @@ import React from 'react'
 import { Form, Input, Button, Select } from 'antd';
 import COUNTRY_CODE from '~/constant/countryCode';
 import { Element } from 'react-scroll';
+import LazyLoad from 'react-lazyload';
 const ContactSection = () => {
     return (
         <section className='ps-contact-section'>
@@ -39,7 +40,10 @@ const ContactSection = () => {
                                         <p>
                                             <a href="https://elsaspeak.com/en/product" target="_blank">
                                                 Using ELSA as an individual?
-                                                <img src="/static/img/icons/next-icon.png" alt="" />
+                                                <LazyLoad>
+                                                    <img src="/static/img/icons/next-icon.png" alt="Next Icon Elsa" />
+                                                </LazyLoad>
+
                                             </a>
 
                                         </p>
