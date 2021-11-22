@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
+import { stickyHeader } from '~/utilities/common-helpers';
 import { Drawer, Button, Radio, Space, Dropdown } from 'antd';
 import Logo from '~/components/elements/Logo';
 import Router from 'next/router';
@@ -11,8 +12,15 @@ import logo from '~/public/static/img/logo/logo_api.png'
 import { Link as LinkScroll } from 'react-scroll'
 const HeaderDefault = () => {
 
+	useEffect(() => {
+        if (process.browser) {
+            window.addEventListener('scroll', stickyHeader);
+        }
+    }, []);
+
+
 	return (
-		<header className='header-api'>
+		<header className='header-api' data-sticky="true" id="headerSticky">
 			<div className="ps-container">
 				<div className='header-container'>
 					<div className="header-container__left">

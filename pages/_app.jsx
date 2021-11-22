@@ -17,12 +17,15 @@ function App({ Component, pageProps }) {
 			document.getElementById('__next').classList.add('loaded');
 		}, 100);
 
-		const d = document;
-		const s = d.createElement("script");
+		document.body.removeAttribute('data-aos-easing')
+		document.body.removeAttribute('data-aos-duration')
+		document.body.removeAttribute('data-aos-delay')
+		// const d = document;
+		// const s = d.createElement("script");
 
-		s.src = "https://js-na1.hs-scripts.com/7353637.js";
-		s.async = true;
-		d.getElementsByTagName("body")[0].appendChild(s);
+		// s.src = "https://js-na1.hs-scripts.com/7353637.js";
+		// s.async = true;
+		// d.getElementsByTagName("body")[0].appendChild(s);
 	}, []);
 	return getLayout(
 		<Provider store={store}>

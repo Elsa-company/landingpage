@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
+import { stickyHeader } from '~/utilities/common-helpers';
 import { Drawer, Button, Radio, Space } from 'antd';
 import Logo from '~/components/elements/Logo';
 import Router from 'next/router';
@@ -11,8 +12,14 @@ import { Link as LinkScroll } from 'react-scroll'
 
 const HeaderDefault = () => {
 
+	useEffect(() => {
+        if (process.browser) {
+            window.addEventListener('scroll', stickyHeader);
+        }
+    }, []);
+
 	return (
-		<header className='header'>
+		<header className='header'  data-sticky="true" id="headerSticky">
 			<div className="ps-container">
 				<div className='header-container'>
 					<div className="header-container__left">
@@ -46,42 +53,6 @@ const HeaderDefault = () => {
 					</div>
 				</div>
 			</div>
-			<section className='header-container'>
-
-				{/* <div className='header-grid'>
-					<div className='header-grid__item'>
-						<img src="/static/img/bg/logo.png" alt="" />
-					</div>
-					<div className='header-grid__item'>
-						<span>
-							<Link href='/page/giveaways'>
-								<a>GIVEAWAYS</a>
-							</Link>
-						</span>
-					</div>
-					<div className='header-grid__item'>
-						<span>
-							<Link href='/page/membership'>
-								<a>MEMBERSHIP</a>
-							</Link>
-						</span>
-					</div>
-					<div className='header-grid__item'>
-						<span>
-							<Link href='/'>
-								<img src='/static/img/logo_light.png' alt='' />
-							</Link>
-						</span>
-					</div>
-					<div className='header-grid__item'>
-						<span>
-							<Link href='/page/partners'>
-								<a>PARTNERS</a>
-							</Link>
-						</span>
-					</div>
-				</div> */}
-			</section>
 		</header>
 	);
 };

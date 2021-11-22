@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
+import { stickyHeader } from '~/utilities/common-helpers';
 import { Drawer, Button, Radio, Space, Dropdown } from 'antd';
 import Logo from '~/components/elements/LogoAirline';
 import Router from 'next/router';
@@ -10,8 +11,14 @@ import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app
 import { Link as LinkScroll } from 'react-scroll'
 const HeaderDefault = () => {
 
+	useEffect(() => {
+        if (process.browser) {
+            window.addEventListener('scroll', stickyHeader);
+        }
+    }, []);
+
 	return (
-		<header className='header-airline'>
+		<header className='header-airline' data-sticky="true" id="headerSticky">
 			<div className="ps-container">
 				<div className='header-container'>
 					<div className="header-container__left">
@@ -19,9 +26,9 @@ const HeaderDefault = () => {
 					</div>
 					<div className="header-container__right">
 						<div className="header-menu">
-							<div className="menu-item">
+							{/* <div className="menu-item">
 								Customer stories
-							</div>
+							</div> */}
 							<div className="menu-item">
 								Pricing
 							</div>

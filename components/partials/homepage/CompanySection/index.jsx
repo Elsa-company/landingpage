@@ -43,15 +43,15 @@ const Company = () => {
             <Container>
                 <Gallery>
                     <Slider {...settings}>
-                        <img src={img1} alt="Company slide 1" />
-                        <img src={img2} alt="Company slide 2" />
-                        <img src={img3} alt="Company slide 3" />
-                        <img src={img4} alt="Company slide 4" />
-                        <img src={img5} alt="Company slide 5" />
-                        <img src={img6} alt="Company slide 6" />
-                        <img src={img7} alt="Company slide 7" />
-                        <img src={img8} alt="Company slide 8" />
-                        <img src={img9} alt="Company slide 9" />
+                        <img src={img1} width={100} alt="Company slide 1" />
+                        <img src={img2} width={100} alt="Company slide 2" />
+                        <img src={img3} width={100} alt="Company slide 3" />
+                        <img src={img4} width={100} alt="Company slide 4" />
+                        <img src={img5} width={100} alt="Company slide 5" />
+                        <img src={img6} width={100} alt="Company slide 6" />
+                        <img src={img7} width={100} alt="Company slide 7" />
+                        <img src={img8} width={100} alt="Company slide 8" />
+                        <img src={img9} width={100} alt="Company slide 9" />
                     </Slider>
                 </Gallery>
                 <Traditional>

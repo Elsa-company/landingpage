@@ -90,7 +90,7 @@ export const ContentButton = styled.div`
     border-radius: 123px;
     padding: 10px 40px;
     text-align: center;
-    p {
+    a {
         margin: 0;
         text-transform: uppercase;
         color: #fff;

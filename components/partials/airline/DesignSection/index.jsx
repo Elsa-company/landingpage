@@ -36,7 +36,7 @@ const DesignSection = () => {
             <Container>
                 <Styled.Title>
                     <h2>
-                        Designed for learners. Loved by HRs.
+                        Designed for learners. Loved by HR.
                     </h2>
                     <p>
                         ELSA Business streamlines recruitment and learning & development process

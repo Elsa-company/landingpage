@@ -30,12 +30,12 @@ const StoriesSection = () => {
                                     NashTech saw an improvement in spoken English of 93% of their employees
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
-                                <Styled.EducationContentFooter>
-                                    {/* <p>
+                                {/* <Styled.EducationContentFooter>
+                                    <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="" />
-                                    </p> */}
-                                </Styled.EducationContentFooter>
+                                    </p>
+                                </Styled.EducationContentFooter> */}
                             </Styled.EducationContent>
                         </Styled.EducationItem>
                         <Styled.EducationItem >
@@ -54,12 +54,12 @@ const StoriesSection = () => {
                                         RICE students increased their pronunciation score by 14% with ELSA
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
-                                <Styled.EducationContentFooter>
-                                    {/* <p>
+                                {/* <Styled.EducationContentFooter>
+                                    <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="" />
-                                    </p> */}
-                                </Styled.EducationContentFooter>
+                                    </p>
+                                </Styled.EducationContentFooter> */}
                             </Styled.EducationContent>
                         </Styled.EducationItem>
                         <Styled.EducationItem >
@@ -78,12 +78,12 @@ const StoriesSection = () => {
                                         100% of ATAD Steel Structure employees  showed improvement after 6 months with top performer practiced 24 minutes/ day
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
-                                <Styled.EducationContentFooter>
-                                    {/* <p>
+                                {/* <Styled.EducationContentFooter>
+                                    <p>
                                         Read story
                                         <img src="/static/img/icons/next-icon.png" alt="Next Icon" />
-                                    </p> */}
-                                </Styled.EducationContentFooter>
+                                    </p>
+                                </Styled.EducationContentFooter> */}
                             </Styled.EducationContent>
                         </Styled.EducationItem>
                     </Styled.EducationWrapper>

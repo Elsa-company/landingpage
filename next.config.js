@@ -3,8 +3,8 @@ const withImages = require('next-images');
 
 const nextSettings = {
 	env: {
-		title: 'Elsa',
-		titleDescription: 'Elsa',
+		title: 'ELSA',
+		titleDescription: 'ELSA',
 		baseDomain: 'http://localhost:5000/api',
 	},
 	target: "serverless",

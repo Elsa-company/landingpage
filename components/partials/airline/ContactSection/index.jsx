@@ -29,12 +29,12 @@ const ContactSection = () => {
                                             >
                                                 <Select.Option value="1">I am interested in ELSA program for my company </Select.Option>
                                                 <Select.Option value="2">I represent a non-profit organization </Select.Option>
-                                                <Select.Option value="2">I represent a government institution </Select.Option>
-                                                <Select.Option value="2">I represent a higher education institution </Select.Option>
-                                                <Select.Option value="2">I represent a private language school </Select.Option>
-                                                <Select.Option value="2">I am a private tutor </Select.Option>
-                                                <Select.Option value="2">I am a teacher at an education institution </Select.Option>
-                                                <Select.Option value="2">Other:</Select.Option>
+                                                <Select.Option value="3">I represent a government institution </Select.Option>
+                                                <Select.Option value="4">I represent a higher education institution </Select.Option>
+                                                <Select.Option value="5">I represent a private language school </Select.Option>
+                                                <Select.Option value="6">I am a private tutor </Select.Option>
+                                                <Select.Option value="7">I am a teacher at an education institution </Select.Option>
+                                                <Select.Option value="8">Other</Select.Option>
                                             </Select>
                                         </Form.Item>
                                         <p>
@@ -76,8 +76,8 @@ const ContactSection = () => {
                                             >
                                                 <Select.Option value="1">1-50</Select.Option>
                                                 <Select.Option value="2">51-100</Select.Option>
-                                                <Select.Option value="2">101-1000</Select.Option>
-                                                <Select.Option value="2">1000+</Select.Option>
+                                                <Select.Option value="3">101-1000</Select.Option>
+                                                <Select.Option value="4">1000+</Select.Option>
                                             </Select>
                                         </Form.Item>
                                         <Form.Item
