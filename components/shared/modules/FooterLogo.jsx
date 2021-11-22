@@ -13,11 +13,11 @@ const FooterLogo = () => {
 				</p>
 				<p>
 					<i class="fa fa-envelope" aria-hidden="true"></i>
-					b2bsupport@elsanow.io
+					<a href="mailto:b2bsupport@elsanow.io" target="_blank">b2bsupport@elsanow.io</a>
 				</p>
 				<p>
 					<i class="fa fa-phone" aria-hidden="true"></i>
-					+1 3182028752
+					<a href="tel:+13182028752" target="_blank">+1 3182028752</a>
 				</p>
 			</div>
 			<div className="copy-right">
