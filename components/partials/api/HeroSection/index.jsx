@@ -110,7 +110,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                 95%
                             </CardGroupItemPercent>
                             <CardGroupItemContent fontSize="24px" fontWeight={600}>
-                                expressed higher confidence in speaking english
+                                expressed higher confidence in speaking English
                             </CardGroupItemContent>
                         </CardGroupItem>
                         <CardGroupItem data-aos-delay='700' data-aos-duration='750'>

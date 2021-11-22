@@ -47,7 +47,7 @@ const Company = () => {
                                 95%
                             </Styled.CardGroupItemPercent>
                             <Styled.CardGroupItemContent>
-                                expressed higher confidence in speaking english
+                                expressed higher confidence in speaking English
                             </Styled.CardGroupItemContent>
                         </Styled.CardGroupItem>
                         <Styled.CardGroupItem>

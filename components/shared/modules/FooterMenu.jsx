@@ -29,7 +29,7 @@ const FooterMenu = () => {
 						<a href="https://elsaspeak.com/b2b/homepage" target="_blank">English for Companies</a>
 					</li>
 					<li>
-						<a href="https://elsaspeak.com/en/english-for-companies/demo" target="_blank">ELSA API</a>
+						<a href="https://elsaspeak.com/en/English-for-companies/demo" target="_blank">ELSA API</a>
 
 					</li>
 				</ul>
@@ -88,7 +88,7 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>DOWNLOAD</li>
 					<li>
-						<a href='https://apps.apple.com/us/app/elsa-learn-and-speak-english/id1083804886' target="_blank">
+						<a href='https://apps.apple.com/us/app/elsa-learn-and-speak-English/id1083804886' target="_blank">
 							<img src="/static/img/pages/download-apple.png" alt="Apple Download" />
 						</a>
 					</li>

@@ -33,7 +33,7 @@ const HeaderDefault = () => {
 								</LinkScroll>
 							</div> */}
 							<div className="menu-item">
-								<a href="https://elsaspeak.com/en/english-for-companies/plans" target="_blank">
+								<a href="https://elsaspeak.com/en/English-for-companies/plans" target="_blank">
 									Pricing
 								</a>
 							</div>
