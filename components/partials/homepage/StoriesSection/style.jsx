@@ -119,9 +119,17 @@ export const AwardsItem = styled.div`
 `
 
 export const AwardsItemThumb = styled.div`
-     display: flex;
-                justify-content: center;
+     /* display: flex;
+                justify-content: center; */
                 max-height: 150px;
+                .lazyload-wrapper {
+                    display: flex;
+                    justify-content: center;
+                    height: 100%;
+                    img {
+                        height: 100%;
+                    }
+                }
     /* img {
         object-fit: cover;
     } */
