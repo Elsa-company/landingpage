@@ -51,7 +51,7 @@ const StoriesSection = () => {
                                         <button>Education</button>
                                     </Styled.EducationContentHeadButton>
                                     <Styled.EducationContentHeadTitle>
-                                        RICE students increased their pronunciation score by 14% with ELSA
+                                    RICE University students improved pronunciation skills by 14% with ELSA after only 6 weeks of practice
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 {/* <Styled.EducationContentFooter>
