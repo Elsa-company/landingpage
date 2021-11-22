@@ -27,7 +27,7 @@
     &.loaded {
         @include hidden;
         background-color: transparent;
-        @include transition-delay(0.7s);
+        // @include transition-delay(0.7s);
 
         .ps-loading__content {
             > * {
@@ -90,7 +90,7 @@
 }
 
 .loaded #loader-wrapper {
-    // visibility: hidden;
+    visibility: hidden;
   /*  transform: translateY(-100%);*/
     // transition: all 0.3s 1s ease-out;
 }
