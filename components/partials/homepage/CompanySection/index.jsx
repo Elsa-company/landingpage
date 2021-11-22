@@ -33,7 +33,7 @@ const Company = () => {
         infinite: true,
         speed: 500,
         autoplay: true,
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 1,
         lazyLoad: true,
     };
