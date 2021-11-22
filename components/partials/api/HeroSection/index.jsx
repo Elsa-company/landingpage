@@ -20,7 +20,7 @@ import {
     InfoFooterP
 } from './style'
 import Container from '~/components/elements/Container';
-import { Link as LinkScroll } from 'react-scroll'
+import { Link as LinkScroll, Element } from 'react-scroll'
 
 const HomeDefaultBanner = ({ giveaway }) => {
 
@@ -45,39 +45,42 @@ const HomeDefaultBanner = ({ giveaway }) => {
 
             </Container>
             <Container>
-                <InfoHead>
-                    <InfoHeadH1>A game-changing solution for your education platform</InfoHeadH1>
-                </InfoHead>
+                <Element name='why-elsa-api'>
+                    <InfoHead>
+                        <InfoHeadH1>A game-changing solution for your education platform</InfoHeadH1>
+                    </InfoHead>
 
-                <CardGroup>
-                    <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="36px" color="#0099FF">
-                            Top ASR in the industry
-                        </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
-                            Give your users world class speech recognition feedback - a high value feature for language learning
-                        </CardGroupItemContent>
-                    </CardGroupItem>
-                    <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="36px" color="#FF9518">
-                            3x conversion rate
-                        </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
-                            ELSA conversion to paying customer is 3x the industry standard thanks to the interactive and engaging nature of
-                            speaking practice
-                        </CardGroupItemContent>
-                    </CardGroupItem>
-                    <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
-                        <CardGroupItemPercent fontSize="36px" color="#00BB13">
-                            8x user engagement
-                        </CardGroupItemPercent>
-                        <CardGroupItemContent fontSize="18px" fontWeight={400}>
-                            ELSA user's average session time is 23 minutes - top 10% of language learning apps
-                        </CardGroupItemContent>
-                    </CardGroupItem>
+                    <CardGroup>
+                        <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                            <CardGroupItemPercent fontSize="36px" color="#0099FF">
+                                Top ASR in the industry
+                            </CardGroupItemPercent>
+                            <CardGroupItemContent fontSize="18px" fontWeight={400}>
+                                Give your users world class speech recognition feedback - a high value feature for language learning
+                            </CardGroupItemContent>
+                        </CardGroupItem>
+                        <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                            <CardGroupItemPercent fontSize="36px" color="#FF9518">
+                                3x conversion rate
+                            </CardGroupItemPercent>
+                            <CardGroupItemContent fontSize="18px" fontWeight={400}>
+                                ELSA conversion to paying customer is 3x the industry standard thanks to the interactive and engaging nature of
+                                speaking practice
+                            </CardGroupItemContent>
+                        </CardGroupItem>
+                        <CardGroupItem data-aos-delay='700' data-aos-duration='750'>
+                            <CardGroupItemPercent fontSize="36px" color="#00BB13">
+                                8x user engagement
+                            </CardGroupItemPercent>
+                            <CardGroupItemContent fontSize="18px" fontWeight={400}>
+                                ELSA user's average session time is 23 minutes - top 10% of language learning apps
+                            </CardGroupItemContent>
+                        </CardGroupItem>
 
 
-                </CardGroup>
+                    </CardGroup>
+
+                </Element>
 
             </Container>
             <Container>

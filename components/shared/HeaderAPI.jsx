@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
 import { stickyHeader } from '~/utilities/common-helpers';
@@ -13,10 +13,10 @@ import { Link as LinkScroll } from 'react-scroll'
 const HeaderDefault = () => {
 
 	useEffect(() => {
-        if (process.browser) {
-            window.addEventListener('scroll', stickyHeader);
-        }
-    }, []);
+		if (process.browser) {
+			window.addEventListener('scroll', stickyHeader);
+		}
+	}, []);
 
 
 	return (
@@ -28,17 +28,26 @@ const HeaderDefault = () => {
 					</div>
 					<div className="header-container__right">
 						<div className="header-menu">
+
 							<div className="menu-item">
-								Why ELSA API
+								<LinkScroll to="why-elsa-api" spy={true} smooth={true} offset={-100} duration={1500}>
+									Why ELSA API
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
-								How it works?
+								<LinkScroll to="how-it-work" spy={true} smooth={true} offset={-100} duration={1500}>
+									How it works?
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
-								Experience ELSA
+								<LinkScroll to="experience-elsa" spy={true} smooth={true} offset={-100} duration={1500}>
+									Experience ELSA
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
-								Pricing
+								<LinkScroll to="pricing" spy={true} smooth={true} offset={-100} duration={1500}>
+									Pricing
+								</LinkScroll>
 							</div>
 							<div className="menu-item">
 								<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
