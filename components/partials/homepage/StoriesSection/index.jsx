@@ -27,7 +27,7 @@ const StoriesSection = () => {
                                         <button>IT & Consulting</button>
                                     </Styled.EducationContentHeadButton>
                                     <Styled.EducationContentHeadTitle>
-                                    NashTech saw an improvement in spoken English of 93% of their employees
+                                    THE NashTech saw an improvement in THE spoken English of 93% of their employees
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 {/* <Styled.EducationContentFooter>
@@ -75,7 +75,7 @@ const StoriesSection = () => {
                                         <button>Organization</button>
                                     </Styled.EducationContentHeadButton>
                                     <Styled.EducationContentHeadTitle>
-                                        100% of ATAD Steel Structure employees  showed improvement after 6 months with top performer practiced 24 minutes/ day
+                                        100% of ATAD Steel Structure employees  showed improvement after 6 months with top performer practicing 24 minutes/ day
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 {/* <Styled.EducationContentFooter>
@@ -112,7 +112,7 @@ const StoriesSection = () => {
 
                             </Styled.AwardsItemThumb>
                             <Styled.AwardsItemBody>
-                                Most Innovative Artificial Intelligence Startups
+                                AI 100 - Most Innovative Artificial Intelligence Startups
                             </Styled.AwardsItemBody>
                         </Styled.AwardsItem>
                         <Styled.AwardsItem >
@@ -123,7 +123,7 @@ const StoriesSection = () => {
 
                             </Styled.AwardsItemThumb>
                             <Styled.AwardsItemBody>
-                                World changing ideas in the year of 2020
+                            World Changing Ideas - Honorable Mention
                             </Styled.AwardsItemBody>
                         </Styled.AwardsItem>
                     </Styled.AwardsWrapper>
