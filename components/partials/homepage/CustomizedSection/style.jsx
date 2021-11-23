@@ -77,6 +77,7 @@ export const QuoteWrapperTitle = styled.div`
         color: #333;
         font-weight: 400;
         margin-bottom: 16px;
+        line-height: 2.5;
     }
 
     p {
