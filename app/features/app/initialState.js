@@ -9,11 +9,7 @@ import STATUS from '../../../constant/status';
 
 const INITIAL_STATE = {
 	status               : STATUS.IDLE,
-	modalVisibleLogin    : false,
-	modalVisibleJoinNow  : false,
-	modalComfirmPassword : false,
-
-	isclickMenu          : false,
+	customizeIndex		 : 1
 
 };
 

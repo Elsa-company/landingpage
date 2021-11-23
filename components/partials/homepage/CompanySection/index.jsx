@@ -15,7 +15,7 @@ import companyPhone from '~/public/static/img/pages/company-phone.png'
 
 import LinkText from '~/components/elements/LinkText'
 import Container from '~/components/elements/Container'
-import { Link as LinkScroll } from 'react-scroll'
+import { Link as LinkScroll, Element } from 'react-scroll'
 
 import { SectionWrapper, Gallery, Traditional, TraditionalLeft, TraditionalRight, TraditionalTitle, TraditionalDesc, ButtonCustom } from './style'
 
@@ -40,47 +40,49 @@ const Company = () => {
 
     return (
         <SectionWrapper>
-            <Container>
-                <Gallery>
-                    <Slider {...settings}>
-                        <img src={img1} width={100} alt="Company slide 1" />
-                        <img src={img2} width={100} alt="Company slide 2" />
-                        <img src={img3} width={100} alt="Company slide 3" />
-                        <img src={img4} width={100} alt="Company slide 4" />
-                        <img src={img5} width={100} alt="Company slide 5" />
-                        <img src={img6} width={100} alt="Company slide 6" />
-                        <img src={img7} width={100} alt="Company slide 7" />
-                        <img src={img8} width={100} alt="Company slide 8" />
-                        <img src={img9} width={100} alt="Company slide 9" />
-                    </Slider>
-                </Gallery>
-                <Traditional>
-                    <TraditionalLeft>
-                        <TraditionalTitle >
-                            Replacing traditional <br /> English training
-                        </TraditionalTitle>
-                        <TraditionalDesc >
-                            Each year, ELSA helps our partners save millions in hiring tutors.
-                            <br />
-                            With our AI-powered speech-recognition technology, your employees can receive detailed feedback on pronunciation, fluency, intonation and more without going to any physical class.
-                        </TraditionalDesc>
-                        <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
-                            <ButtonCustom >
-                                Request a Demo
-                            </ButtonCustom>
-                        </LinkScroll>
-                    </TraditionalLeft>
-                    <TraditionalRight>
-                        <animated.div style={{ ...styles }}>
-                            <LazyLoad>
-                                <img src={companyPhone} alt="Elsa two phones" />
-                            </LazyLoad>
+            <Element name="company">
+                <Container>
+                    <Gallery>
+                        <Slider {...settings}>
+                            <img src={img1} width={100} alt="Company slide 1" />
+                            <img src={img2} width={100} alt="Company slide 2" />
+                            <img src={img3} width={100} alt="Company slide 3" />
+                            <img src={img4} width={100} alt="Company slide 4" />
+                            <img src={img5} width={100} alt="Company slide 5" />
+                            <img src={img6} width={100} alt="Company slide 6" />
+                            <img src={img7} width={100} alt="Company slide 7" />
+                            <img src={img8} width={100} alt="Company slide 8" />
+                            <img src={img9} width={100} alt="Company slide 9" />
+                        </Slider>
+                    </Gallery>
+                    <Traditional>
+                        <TraditionalLeft>
+                            <TraditionalTitle >
+                                Replacing traditional <br /> English training
+                            </TraditionalTitle>
+                            <TraditionalDesc >
+                                Each year, ELSA helps our partners save millions in hiring tutors.
+                                <br />
+                                With our AI-powered speech-recognition technology, your employees can receive detailed feedback on pronunciation, fluency, intonation and more without going to any physical class.
+                            </TraditionalDesc>
+                            <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                                <ButtonCustom >
+                                    Request a Demo
+                                </ButtonCustom>
+                            </LinkScroll>
+                        </TraditionalLeft>
+                        <TraditionalRight>
+                            <animated.div style={{ ...styles }}>
+                                <LazyLoad>
+                                    <img src={companyPhone} alt="Elsa two phones" />
+                                </LazyLoad>
 
-                        </animated.div>
+                            </animated.div>
 
-                    </TraditionalRight>
-                </Traditional>
-            </Container>
+                        </TraditionalRight>
+                    </Traditional>
+                </Container>
+            </Element>
         </SectionWrapper>
     )
 }

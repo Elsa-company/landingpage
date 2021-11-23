@@ -27,7 +27,7 @@ const StoriesSection = () => {
                                         <button>IT & Consulting</button>
                                     </Styled.EducationContentHeadButton>
                                     <Styled.EducationContentHeadTitle>
-                                    THE NashTech saw an improvement in THE spoken English of 93% of their employees
+                                    The NashTech saw an improvement in the spoken English of 93% of their employees
                                     </Styled.EducationContentHeadTitle>
                                 </Styled.EducationContentHead>
                                 {/* <Styled.EducationContentFooter>

@@ -52,7 +52,7 @@ const HeaderDefault = () => {
 							<div className="menu-item">
 								<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
 									<button className="ps-btn">
-										REQUEST API KEY
+										Request API Key
 									</button>
 								</LinkScroll>
 

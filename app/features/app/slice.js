@@ -12,9 +12,6 @@ export const authSlice = createSlice({
 });
 
 export const {
-	setModalVisibleLogin,
-	setModalVisibleJoinNow,
-	isClickMenu,
 	onChangeTabs,
 } = authSlice.actions;
 

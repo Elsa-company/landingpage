@@ -9,7 +9,7 @@ const ContactSection = () => {
             <div className="ps-container">
                 <div className="section-content-airline">
                     <div className="section-text">
-                        Ready to enhance your English training program?
+                    What best describes your need?
                     </div>
                     <div className="form-wrapper">
                         <div className="section-form">

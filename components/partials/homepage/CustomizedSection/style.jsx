@@ -66,7 +66,7 @@ export const Image = styled.div`
 
 export const QuoteWrapper = styled.div`
    display: grid;
-    grid-template-rows: 0.8fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
 
 `
@@ -83,7 +83,7 @@ export const QuoteWrapperTitle = styled.div`
         font-size: 18px;
         color: #4294FF;
         font-weight: 400;
-
+        cursor: pointer;
         img {
             margin-left: 10px;
             width: 20px;

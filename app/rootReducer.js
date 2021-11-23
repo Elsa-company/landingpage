@@ -15,13 +15,13 @@ import userPersistConfig from './features/user/persistConfig';
 import paymentPersistConfig from './features/payment/persistConfig'
 
 const rootReducer = combineReducers({
-	auth            : persistReducer(authPersistConfig, authReducer),
+	// auth            : persistReducer(authPersistConfig, authReducer),
 	app             : appReducer,
-	giveaway        : giveawayReducer,
-	partner         : partnerReducer,
-	purchaseHistory : purchaseHistoryReducer,
-	payment         : persistReducer(paymentPersistConfig, paymentReducer),
-	user            : persistReducer(userPersistConfig, userReducer),
+	// giveaway        : giveawayReducer,
+	// partner         : partnerReducer,
+	// purchaseHistory : purchaseHistoryReducer,
+	// payment         : persistReducer(paymentPersistConfig, paymentReducer),
+	// user            : persistReducer(userPersistConfig, userReducer),
 });
 
 export default rootReducer;

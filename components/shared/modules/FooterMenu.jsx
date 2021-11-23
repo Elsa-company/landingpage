@@ -1,7 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { Link as LinkScroll } from 'react-scroll'
+import { useSelector, useDispatch } from 'react-redux';
+import { onChangeTabs } from '~/app/features/app/slice';
+
 
 const FooterMenu = () => {
+
+	const dispatch = useDispatch();
+	const appRedux = useSelector(state => state.app);
+
+	const handleClick = (key) => {
+		dispatch(onChangeTabs(key))
+	}
 	return (
 		<div className='ps-footer__menu'>
 			<div className='footer__menu'>
@@ -20,17 +31,20 @@ const FooterMenu = () => {
 			</div>
 			<div className='footer__menu'>
 				<ul>
-					<li className='title'>for organizations</li>
+					<li className='title'>
+						<a href="#">
+							for organizations
+						</a>
+					</li>
 					<li>
 						<a href="https://elsaspeak.com/en/schools/homepage" target="_blank">English for Schools</a>
 
 					</li>
 					<li>
-						<a href="https://elsaspeak.com/b2b/homepage" target="_blank">English for Companies</a>
+						<a href="#">English for Companies</a>
 					</li>
 					<li>
-						<a href="https://elsaspeak.com/en/English-for-companies/demo" target="_blank">ELSA API</a>
-
+						<Link href="/api-page" >ELSA API</Link>
 					</li>
 				</ul>
 			</div>
@@ -54,8 +68,9 @@ const FooterMenu = () => {
 
 					</li>
 					<li>
-						<a href="#">Customers</a>
-
+						<LinkScroll to="company" spy={true} smooth={true} offset={-100} duration={1500}>
+							Customers
+						</LinkScroll>
 					</li>
 				</ul>
 			</div>
@@ -63,24 +78,24 @@ const FooterMenu = () => {
 				<ul>
 					<li className='title'>SOLUTIONS</li>
 					<li>
-						<Link href='/'>
+						<Link href='/airline-page'>
 							<a>ELSA for airlines</a>
 						</Link>
 					</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA for hotels</a>
-						</Link>
+						<LinkScroll to="customizer" spy={true} smooth={true} offset={-100} duration={1500} onClick={() => {handleClick(2)}}>
+							ELSA for hotels
+						</LinkScroll>
 					</li>
 					<li>
-						<Link href='#'>
-							<a>ELSA for IT & Consulting</a>
-						</Link>
-					</li>
+						<LinkScroll to="customizer" spy={true} smooth={true} offset={-100} duration={1500} onClick={() => {handleClick(3)}}>
+							ELSA for IT & Consulting
+						</LinkScroll>
+					</li>	
 					<li>
-						<Link href='#'>
-							<a>ELSA for healthcare</a>
-						</Link>
+						<LinkScroll to="customizer" spy={true} smooth={true} offset={-100} duration={1500} onClick={() => {handleClick(4)}}>
+							ELSA for healthcare
+						</LinkScroll>
 					</li>
 				</ul>
 			</div>

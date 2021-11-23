@@ -92,7 +92,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                         </Card>
                         <Card>
                             <CardHead background="linear-gradient(180deg, #579CFF, #5CE578)">
-                                Word Pronunciation
+                                Unscripted Speech
                             </CardHead>
                             <CardNoti background="#F0FFED">
                                 <p>Receive feedback on your pronunciation, vocabulary, grammar & more for your speech.</p>
@@ -141,8 +141,10 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                         <PriceContentHeadDesc>
                                             Per every 15s of audio
                                         </PriceContentHeadDesc>
-                                        <PriceContentHeadButon background="#fff" color="#3ABBFF">
-                                            Get Started
+                                        <PriceContentHeadButon background="linear-gradient(180deg,#29F4FF ,#5257FF )" color="#fff">
+                                            <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                                                Get Started
+                                            </LinkScroll>
                                         </PriceContentHeadButon>
                                         <p> <b>AUDIO LENGTH</b>  (PER REQUEST)</p>
                                         <p>
@@ -297,7 +299,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             Per every 15s of audio
                                         </PriceContentHeadDesc>
                                         <PriceContentHeadButon background="linear-gradient(180deg,#29F4FF ,#5257FF )" color="#fff">
-                                            Get Started
+                                            <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                                                Get Started
+                                            </LinkScroll>
                                         </PriceContentHeadButon>
                                         <p> <b>AUDIO LENGTH</b>  (PER REQUEST)</p>
                                         <p>
@@ -461,7 +465,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             Per every 15s of audio
                                         </PriceContentHeadDesc>
                                         <PriceContentHeadButon background="#fff" color="#3ABBFF">
-                                            Get Started
+                                            <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                                                Get Started
+                                            </LinkScroll>
                                         </PriceContentHeadButon>
                                         <p> <b>AUDIO LENGTH</b>  (PER REQUEST)</p>
                                         <p>
@@ -603,7 +609,9 @@ const HomeDefaultBanner = ({ giveaway }) => {
                                             Per every 15s of audio
                                         </PriceContentHeadDesc>
                                         <PriceContentHeadButon background="linear-gradient(180deg,#29F4FF ,#5257FF )" color="#fff">
-                                            Get Started
+                                            <LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+                                                Get Started
+                                            </LinkScroll>
                                         </PriceContentHeadButon>
                                         <p> <b>AUDIO LENGTH</b>  (PER REQUEST)</p>
                                         <p>
