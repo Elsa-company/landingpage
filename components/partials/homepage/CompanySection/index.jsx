@@ -31,7 +31,7 @@ const Company = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         autoplay: true,
         slidesToShow: 6,
         slidesToScroll: 1,
