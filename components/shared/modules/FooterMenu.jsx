@@ -65,10 +65,9 @@ const FooterMenu = () => {
 					</li>
 					<li>
 						<a href="https://elsaspeak.com/blog" target="_blank">Blog</a>
-
 					</li>
 					<li>
-						<LinkScroll to="company" spy={true} smooth={true} offset={-100} duration={1500}>
+						<LinkScroll to="company" spy={true} smooth={true} offset={-100} duration={1000}>
 							Customers
 						</LinkScroll>
 					</li>
