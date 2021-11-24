@@ -24,15 +24,50 @@ export const SectionWrapper = styled.section`
 export const Title = styled.div`
     margin-bottom: 110px;
     h2 {
-        font-size: 36px;
+        font-size: 48px;
         text-align: center;
         margin-bottom: 24px;
     }
     p {
-        font-size: 24px;
+        font-size: 28px;
         text-align: center;
         color: #fff;
         margin-bottom: 14px; 
+    }
+
+    @media only screen and (max-width: 1920px) {
+        h2 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 28px;
+        }
+    }
+    @media only screen and (max-width: 1536px) {
+        h2 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        h2 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+
+    @media only screen and (max-width: 1366px) {
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 
     @media only screen and (max-width: 560px) {
@@ -118,13 +153,47 @@ export const CardBody = styled.div`
    h3{
         color: #333;
         text-align: center;
-        font-size: 24px;
+        font-size: 32px;
         font-weight: 600;
     }
 
     p {
         text-align: center;
-        font-size: 18px;
+        font-size: 24px;
     }
 
+    @media only screen and (max-width: 1920px) {
+        h3 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+    @media only screen and (max-width: 1536px) {
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (max-width: 1366px) {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
 `

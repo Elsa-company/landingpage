@@ -14,16 +14,71 @@ export const TitleWrapper = styled.div`
 
 export const TitleWrapperH1 = styled.div`
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     color: #333;
     margin-bottom: 25px;
     font-weight: 600;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 48px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 32px;
+    }
+
+    @media only screen and (max-width: 560px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const TitleWrapperP = styled.div`
     text-align: center;
-            font-size: 24px;
-            color: #333;
+    font-size: 32px;
+    color: #333;
+    
+    @media only screen and (max-width: 1920px) {
+        font-size: 32px;
+    }
+    @media only screen and (max-width: 1536px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 560px) {
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const CustomizedContent = styled.div`
@@ -60,12 +115,33 @@ export const ListFunctionItem = styled.div`
     p {
         margin-left: 15px;
         margin-bottom: 0;
-        font-size: 24px;
+        font-size: 28px;
         color: #333;
         opacity: ${props => props.active == "true" ? "100%" : "33%"};
         font-weight: ${props => props.active == "true" ? "500" : "400"};
     }
+    @media only screen and (max-width: 1920px) {
+        p {
+        font-size: 28px;
+        }
+    }
+    @media only screen and (max-width: 1536px) {
+        p {
+        font-size: 24px;
+        }
+    }
 
+    @media only screen and (max-width: 1440px) {
+        p {
+        font-size: 24px;
+        }
+    }
+
+    @media only screen and (max-width: 1366px) {
+        p {
+        font-size: 20px;
+        }
+    }
     @media only screen and (max-width: 560px) {
         p {
             font-size: 16px;  
@@ -100,7 +176,7 @@ export const QuoteWrapper = styled.div`
 
 export const QuoteWrapperTitle = styled.div`
     h5 {
-        font-size: 18px;
+        font-size: 24px;
         color: #333;
         font-weight: 400;
         margin-bottom: 16px;
@@ -119,6 +195,43 @@ export const QuoteWrapperTitle = styled.div`
         }
     }
 
+    @media only screen and (max-width: 1920px) {
+        h5 {
+            font-size: 24px;
+            line-height: 2.5;
+        }
+    }
+    @media only screen and (max-width: 1536px) {
+        h5 {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        h5 {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+
+    @media only screen and (max-width: 1366px) {
+        h5 {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+    @media only screen and (max-width: 560px) {
+       
+    }
+
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const QuoteWrapperMain = styled.div`
@@ -161,7 +274,7 @@ export const QuoteWrapperMainBottomName = styled.div`
     }
 `
 
-export const Collapse = styled.div `
+export const Collapse = styled.div`
     display: none;
     @media only screen and (max-width: 560px) {
         display: block;
@@ -177,18 +290,18 @@ export const Collapse = styled.div `
 
 `
 
-export const CollapseWrapper = styled.div `
+export const CollapseWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     /* gap: 3rem; */
 `
 
-export const CollapseItem = styled.div `
+export const CollapseItem = styled.div`
     border-bottom: 1px solid rgba(51, 51, 51, 0.33);
 `
 
-export const CollapseItemHeader = styled.div `
+export const CollapseItemHeader = styled.div`
     display: flex;
     justify-content: start;
     align-items: center;
@@ -203,6 +316,6 @@ export const CollapseItemHeader = styled.div `
         font-weight: ${props => props.active == "true" ? "500" : "400"};
     }
 `
-export const CollapseContent = styled.div `
+export const CollapseContent = styled.div`
     display: ${props => props.active == "true" ? "block" : "none"};
 `
