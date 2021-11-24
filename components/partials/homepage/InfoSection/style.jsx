@@ -167,9 +167,24 @@ export const CardGroupItemPercent = styled.div`
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-size: 64px;
+    font-size: 72px;
     font-weight: 600;
     text-align: center;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 72px;
+    }
+    @media only screen and (max-width: 1536px) {
+        font-size: 64px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 64px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 56px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 48px;
