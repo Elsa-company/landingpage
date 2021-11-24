@@ -2,26 +2,55 @@ import styled from "styled-components";
 import Button from "~/components/elements/Button";
 
 export const SectionWrapper = styled.section`
-     background-image: url(${props => props.background || ""});
+    background-image: url(${props => props.background || ""});
     background-size: cover;
     padding: 80px 0;
+
+    @media only screen and (max-width: 560px) {
+        padding: 60px 0;
+        background-position: center;
+    }
+
+    @media only screen and (max-width: 414px) {
+        padding: 60px 0;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 60px 0;
+    }
 `
 
 
 export const Title = styled.div`
     margin-bottom: 110px;
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    p {
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 14px; 
+    }
+
+    @media only screen and (max-width: 560px) {
+        margin-bottom: 50px;
         h2 {
-            font-size: 36px;
-            text-align: center;
-            margin-bottom: 24px;
+            font-size: 24px;
         }
         p {
-            font-size: 24px;
-            text-align: center;
-            color: #fff;
-            margin-bottom: 14px;
+            font-size: 16px;
+        }
+    }
 
-           
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
     }
 `
 
@@ -34,7 +63,20 @@ export const CardWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 0 3rem;
+    gap: 3rem;
+
+    @media only screen and (max-width: 560px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const CardItem = styled.div`
@@ -44,6 +86,18 @@ export const CardItem = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
+
+    @media only screen and (max-width: 560px) {
+        padding: 25px;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 
 `
 

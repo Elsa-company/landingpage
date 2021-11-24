@@ -7,6 +7,35 @@ export const SectionWrapper = styled.section`
     background-size: cover;
     position: relative;
     padding: 80px 0;
+
+    @media only screen and (max-width: 560px) {
+        padding: 60px 0;
+    }
+
+    @media only screen and (max-width: 414px) {
+        padding: 60px 0;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 60px 0;
+    }
+`
+
+export const Globe = styled(animated.div)` 
+    position: absolute;
+    right: 0;
+    top: 40px;
+    @media only screen and (max-width: 560px) {
+        display: none
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const InfoHead = styled.div`
@@ -14,10 +43,22 @@ margin-bottom: 50px;
 `
 
 export const InfoHeadH1 = styled.h1`
- font-size: 36px;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 
@@ -26,6 +67,18 @@ export const InfoHeadP = styled.p`
     text-align: center;
     color: #fff;
     font-weight: 600;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const InfoCardWrapper = styled.div`
@@ -45,6 +98,18 @@ export const InfoCardWrapperTitleH2 = styled.div`
     -moz-text-fill-color: transparent;
     text-align: center;
     font-size: 48px;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 
@@ -59,6 +124,18 @@ export const CardGroupItemPercent = styled.div`
     font-size: 64px;
     font-weight: 600;
     text-align: center;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const CardGroupItemContent = styled.div` 
@@ -78,6 +155,19 @@ export const CardGroup = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+
+    @media only screen and (max-width: 560px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const InfoFooter = styled.div` 
@@ -90,9 +180,3 @@ color: #fff;
             text-align: center;
 `
 
-export const Globe = styled(animated.div)` 
-    position: absolute;
-        right: 0;
-        top: 40px;
-        /* transform: translate(40%, 0); */
-`

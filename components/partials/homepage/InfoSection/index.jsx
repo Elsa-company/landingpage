@@ -30,7 +30,7 @@ const Company = () => {
 
                 <Styled.InfoCardWrapper>
                     <Styled.InfoCardWrapperTitle>
-                        <Styled.InfoCardWrapperTitleH2>ELSA has been used by 20M+ users <br />
+                        <Styled.InfoCardWrapperTitleH2>ELSA has been used by 20M+ users
                          from 100+ countries in the world</Styled.InfoCardWrapperTitleH2>
                     </Styled.InfoCardWrapperTitle>
                     <Styled.CardGroup>

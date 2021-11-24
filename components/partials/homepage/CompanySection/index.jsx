@@ -36,6 +36,15 @@ const Company = () => {
         slidesToShow: 6,
         slidesToScroll: 1,
         lazyLoad: true,
+        responsive: [
+            {
+              breakpoint: 560,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
 
     return (
@@ -76,9 +85,7 @@ const Company = () => {
                                 <LazyLoad>
                                     <img src={companyPhone} alt="Elsa two phones" />
                                 </LazyLoad>
-
                             </animated.div>
-
                         </TraditionalRight>
                     </Traditional>
                 </Container>

@@ -5,6 +5,19 @@ export const SectionWrapper = styled.section`
     background-image: url(${props => props.background || ""});
     background-size: cover;
     padding: 80px 0;
+
+    @media only screen and (max-width: 560px) {
+        padding: 60px 0;
+        background-position: center;
+    }
+
+    @media only screen and (max-width: 414px) {
+        padding: 60px 0;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 60px 0;
+    }
 `
 
 
@@ -18,6 +31,18 @@ export const Title = styled.h1`
     &:first-child {
         margin-bottom: 120px;
     }
+
+    @media only screen and (max-width: 560px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const EducationWrapper = styled.div`
@@ -27,23 +52,40 @@ export const EducationWrapper = styled.div`
     gap: 3rem;
     justify-content: center;
     margin-bottom: 250px;
+
+    @media only screen and (max-width: 560px) {
+        gap: 8rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        margin-bottom: 50px;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const EducationItem = styled.div`
-     background-color: #fff;
-            padding: 80px 30px 24px 30px;
-            position: relative;
-            box-shadow: 0 22px 34px 10px rgba(0,0,0, 0.05);
-            border-radius: 24px;
+    background-color: #fff;
+    padding: 80px 30px 24px 30px;
+    position: relative;
+    box-shadow: 0 22px 34px 10px rgba(0,0,0, 0.05);
+    border-radius: 24px;
+
+    
 `
 
 export const EducationThumb = styled.div`
     img {
-                position: absolute;
-                transform: translate(-50%, -50%);
-                top: 0;
-                right: calc(50% - 130px);
-            }
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 0;
+        right: calc(50% - 130px);
+    }
 `
 
 export const EducationContent = styled.div`
@@ -70,6 +112,20 @@ export const EducationContentHeadButton = styled.div`
         border: none;
         border-radius: 65px;
     }
+
+    @media only screen and (max-width: 560px) {
+        button {
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
                        
 `
 
@@ -79,6 +135,18 @@ export const EducationContentHeadTitle = styled.div`
     margin: 0;
     padding-bottom: 24px;
     color: #333;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
                        
 `
 
@@ -103,6 +171,21 @@ export const AwardsWrapper = styled.div`
     grid-template-rows: auto;
     gap: 0 30px;
     margin-bottom: 80px;
+
+    @media only screen and (max-width: 560px) {
+        margin-bottom: 0;
+        gap: 8rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
     
 `
 
@@ -116,6 +199,20 @@ export const AwardsItem = styled.div`
     box-shadow: 0 22px 34px 10px rgba(0,0,0, 0.05);
     border-radius: 24px;
     padding: 60px 40px 30px 40px;
+
+    @media only screen and (max-width: 560px) {
+        grid-template-rows: auto auto;
+        gap:3rem;
+        padding: 40px;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const AwardsItemThumb = styled.div`
@@ -140,4 +237,17 @@ export const AwardsItemBody = styled.p`
     color: #333;
     text-align: center;
     padding: 0 20px;
+
+    @media only screen and (max-width: 560px) {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    @media only screen and (max-width: 414px) { 
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `

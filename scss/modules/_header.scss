@@ -30,6 +30,10 @@
 		}
 	}
 
+	.header-container-mobile {
+		display: none;
+	}
+
 	&.header--sticky {
 		background-color: rgba($color: #000E42, $alpha: 1);
 		position: fixed;
@@ -123,10 +127,7 @@
 	}
 }
 
-@media only screen and (max-width: 1536px) {
-	.header {}
 
-}
 
 @media only screen and (max-width: 1366px) {}
 
@@ -134,4 +135,23 @@
 
 @media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 540px) {}
+@media only screen and (max-width: 560px) {
+	.header {
+		.header-container {
+			display: none;
+		}
+
+		.header-container-mobile {
+			display: flex;
+			justify-content: space-between;
+
+			&__left {
+				// max-width: 300px;
+			}
+
+			&__right {
+				
+			}
+		}
+	}
+}

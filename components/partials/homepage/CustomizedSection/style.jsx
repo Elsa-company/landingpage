@@ -31,6 +31,18 @@ export const CustomizedContent = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 0 60px;
+
+    @media only screen and (max-width: 560px) {
+        display: none;
+    }
+
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
 `
 
 export const ListFunction = styled.div`
@@ -53,6 +65,21 @@ export const ListFunctionItem = styled.div`
         opacity: ${props => props.active == "true" ? "100%" : "33%"};
         font-weight: ${props => props.active == "true" ? "500" : "400"};
     }
+
+    @media only screen and (max-width: 560px) {
+        p {
+            font-size: 16px;  
+        }
+    }
+
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
+
 `
 
 export const Image = styled.div`
@@ -132,4 +159,49 @@ export const QuoteWrapperMainBottomName = styled.div`
         margin-bottom: 0;
         font-size: 14px;
     }
+`
+
+export const Collapse = styled.div `
+    @media only screen and (max-width: 560px) {
+        display: block;
+    }
+
+    @media only screen and (max-width: 414px) {
+        
+    }
+
+    @media only screen and (max-width: 375px) {
+        
+    }
+
+`
+
+export const CollapseWrapper = styled.div `
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    /* gap: 3rem; */
+`
+
+export const CollapseItem = styled.div `
+    border-bottom: 1px solid rgba(51, 51, 51, 0.33);
+`
+
+export const CollapseItemHeader = styled.div `
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+    p {
+        margin-left: 15px;
+        margin-bottom: 0;
+        font-size: 24px;
+        color: #333;
+        opacity: ${props => props.active == "true" ? "100%" : "33%"};
+        font-weight: ${props => props.active == "true" ? "500" : "400"};
+    }
+`
+export const CollapseContent = styled.div `
+    display: ${props => props.active == "true" ? "block" : "none"};
 `

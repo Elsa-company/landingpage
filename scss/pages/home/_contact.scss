@@ -99,7 +99,6 @@
         }
         .form-wrapper {
             width: 800px;
-            
         }
         .section-form {
             background-color: #fff;
@@ -164,6 +163,37 @@
                     font-size: 20px;
                     font-weight: 600;
                     padding: 15px 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 560px) {
+	.ps-contact-section {
+        padding: 60px 0;
+        .section-content-airline {
+            .section-text {
+                font-size: 24px;
+                padding-bottom: 60px;
+            }
+
+            .form-wrapper {
+                width: 100%;
+            }
+
+            .section-form {
+                padding: 15px;
+
+                .form-body {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+                    gap: 1rem 0;
+
+                    .ant-row {
+                        grid-column-start: 1;
+                        grid-column-end: 3;
+                    }
                 }
             }
         }
