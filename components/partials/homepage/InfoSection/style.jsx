@@ -43,10 +43,26 @@ margin-bottom: 50px;
 `
 
 export const InfoHeadH1 = styled.h1`
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 48px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 32px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 24px;
@@ -63,10 +79,25 @@ export const InfoHeadH1 = styled.h1`
 
 
 export const InfoHeadP = styled.p`
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     color: #fff;
     font-weight: 600;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 32px;
+    }
+    @media only screen and (max-width: 1536px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 20px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 16px;
@@ -97,7 +128,22 @@ export const InfoCardWrapperTitleH2 = styled.div`
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-align: center;
-    font-size: 48px;
+    font-size: 56px;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 56px;
+    }
+    @media only screen and (max-width: 1536px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 40px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 24px;

@@ -1,10 +1,22 @@
 import styled from "styled-components";
 
 const Container = styled.div` 
-    max-width: 1460px;
+    max-width: 1960px;
     margin: 0 auto;
 
+    @media only screen and (max-width: 1920px) {
+        max-width: 1460px;
+    }
+
     @media only screen and (max-width: 1536px) {
+        max-width: 1166px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        max-width: 1166px;
+    }
+
+    @media only screen and (max-width: 1366px) {
         max-width: 1166px;
     }
 

@@ -23,9 +23,25 @@ export const Content = styled.div`
 
 export const H1 = styled.h1` 
     color: #fff;
-    font-size: 48px;
+    font-size: 56px;
     margin-top: 100px;
     margin-bottom: 40px;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 56px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 36px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 32px;
@@ -48,9 +64,25 @@ export const H1 = styled.h1`
 
 export const P = styled.p` 
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 45px;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 32px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 20px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 16px;
@@ -76,6 +108,22 @@ export const ButtonHero = styled(Button)`
     font-size: 24px;
     padding: 22px 40px;
     width: auto;
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 24px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 20px;
+    }
 
     @media only screen and (max-width: 560px) {
         font-size: 18px;
