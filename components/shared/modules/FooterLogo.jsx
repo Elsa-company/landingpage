@@ -36,9 +36,6 @@ const FooterLogo = () => {
 				<a href="https://www.youtube.com/channel/UC-ytFRrtZ2s3xASXa47VDiQ" target="_blank">
 					<i class="fa fa-youtube-play" aria-hidden="true"></i>
 				</a>
-
-
-
 			</div>
 		</div>
 	);

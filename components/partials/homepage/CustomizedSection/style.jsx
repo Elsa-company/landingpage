@@ -162,6 +162,7 @@ export const QuoteWrapperMainBottomName = styled.div`
 `
 
 export const Collapse = styled.div `
+    display: none;
     @media only screen and (max-width: 560px) {
         display: block;
     }
