@@ -180,7 +180,7 @@ export const QuoteWrapperTitle = styled.div`
         color: #333;
         font-weight: 400;
         margin-bottom: 16px;
-        line-height: 2.5;
+        line-height: 1.5;
     }
 
     p {
@@ -198,27 +198,23 @@ export const QuoteWrapperTitle = styled.div`
     @media only screen and (max-width: 1920px) {
         h5 {
             font-size: 24px;
-            line-height: 2.5;
         }
     }
     @media only screen and (max-width: 1536px) {
         h5 {
             font-size: 18px;
-            line-height: 1.5;
         }
     }
 
     @media only screen and (max-width: 1440px) {
         h5 {
             font-size: 18px;
-            line-height: 1.5;
         }
     }
 
     @media only screen and (max-width: 1366px) {
         h5 {
             font-size: 16px;
-            line-height: 1.5;
         }
     }
     @media only screen and (max-width: 560px) {

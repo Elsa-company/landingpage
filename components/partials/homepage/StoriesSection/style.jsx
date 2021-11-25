@@ -5,10 +5,10 @@ export const SectionWrapper = styled.section`
     background-image: url(${props => props.background || ""});
     background-size: cover;
     padding: 80px 0;
-
+    background-position: center;
     @media only screen and (max-width: 560px) {
         padding: 60px 0;
-        background-position: center;
+        
     }
 
     @media only screen and (max-width: 414px) {
@@ -23,13 +23,41 @@ export const SectionWrapper = styled.section`
 
 export const Title = styled.h1`
     color: #333;
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
     font-weight: 600;
     margin-bottom: 54px;
 
     &:first-child {
         margin-bottom: 120px;
+    }
+
+    @media only screen and (max-width: 1920px) {
+        font-size: 48px;
+    }
+    
+    @media only screen and (max-width: 1536px) {
+        font-size: 36px;
+    }
+    
+    @media only screen and (max-width: 1440px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 1366px) {
+        font-size: 32px;
+    }
+
+    @media only screen and (max-width: 560px) {
+        font-size: 24px;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        
     }
 
     @media only screen and (max-width: 560px) {
