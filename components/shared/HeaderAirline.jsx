@@ -5,7 +5,6 @@ import { stickyHeader } from '~/utilities/common-helpers';
 import { Drawer, Button, Radio, Space, Dropdown } from 'antd';
 import Logo from '~/components/elements/LogoAirline';
 import Router from 'next/router';
-import { logout } from '~/app/features/auth/slice';
 import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';
 import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app/slice';
 import { Link as LinkScroll } from 'react-scroll'

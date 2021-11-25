@@ -44,7 +44,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                 </Content>
 
             </Container>
-            <Container>
+            {/* <Container>
                 <Element name='why-elsa-api'>
                     <InfoHead>
                         <InfoHeadH1>A game-changing solution for your education platform</InfoHeadH1>
@@ -127,7 +127,7 @@ const HomeDefaultBanner = ({ giveaway }) => {
                 <InfoFooter>
                     <InfoFooterP>(*Based on learners who use ELSA for 10 minutes a day for three months.)</InfoFooterP>
                 </InfoFooter>
-            </Container>
+            </Container> */}
         </SectionWrapper>
     );
 };

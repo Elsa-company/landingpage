@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
 import Link from 'next/link';
-import { stickyHeader } from '~/utilities/common-helpers';
-import { Drawer, Button, Radio, Space, Dropdown } from 'antd';
-import Logo from '~/components/elements/Logo';
+import { useSelector, useDispatch } from 'react-redux';
+import { Link as LinkScroll } from 'react-scroll'
+import { Drawer, Button, Radio, Space, Dropdown, Menu } from 'antd';
 import Router from 'next/router';
-import { logout } from '~/app/features/auth/slice';
+
+import { stickyHeader } from '~/utilities/common-helpers';
 import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';
 import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app/slice';
+
+import { DownOutlined, UserOutlined } from '@ant-design/icons';
 import logo from '~/public/static/img/logo/logo_api.png'
-import { Link as LinkScroll } from 'react-scroll'
+import japan from '~/public/static/img/icons/japan.png'
+import indonesia from '~/public/static/img/icons/indonesia.png'
+import portugal from '~/public/static/img/icons/portugal.png'
+import spain from '~/public/static/img/icons/spain.png'
+
 const HeaderDefault = () => {
 
 	useEffect(() => {
@@ -17,8 +23,26 @@ const HeaderDefault = () => {
 			window.addEventListener('scroll', stickyHeader);
 		}
 	}, []);
-
-
+	function handleMenuClick(e) {
+		message.info('Click on menu item.');
+		console.log('click', e);
+	  }
+	const menu = (
+		<Menu onClick={handleMenuClick}>
+			<Menu.Item key="1" icon={<img src={japan} alt="japan logo" />}>
+				Japanese
+			</Menu.Item>
+			<Menu.Item key="2" icon={<img src={portugal} alt="portugal logo" />}>
+			Portugese
+			</Menu.Item>
+			<Menu.Item key="3" icon={<img src={spain} alt="spain logo" />}>
+			Spanish
+			</Menu.Item>
+			<Menu.Item key="3" icon={<img src={indonesia} alt="indonesia logo" />}>
+			Indonesian
+			</Menu.Item>
+		</Menu>
+	)
 	return (
 		<header className='header-api' data-sticky="true" id="headerSticky">
 			<div className="ps-container">
@@ -57,9 +81,13 @@ const HeaderDefault = () => {
 								</LinkScroll>
 
 							</div>
-							{/* <div className="menu-item">
-								Pricing
-							</div> */}
+							<div className="menu-item">
+								<Dropdown overlay={menu}>
+									<Button>
+										<img src={japan} alt="japan logo" height={16} /> <DownOutlined />
+									</Button>
+								</Dropdown>
+							</div>
 						</div>
 					</div>
 				</div>

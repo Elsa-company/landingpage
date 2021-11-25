@@ -6,6 +6,7 @@ export const SectionWrapper = styled.section`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
+    padding: 80px 0;
 `
 
 export const Content = styled.div` 
@@ -39,15 +40,17 @@ export const ButtonHero = styled(Button)`
 `
 
 export const InfoHead = styled.div`
-    margin-top: 150px;
-    margin-bottom: 50px;
+    /* margin-top: 150px;
+    margin-bottom: 50px; */
+    
 `
 
 export const InfoHeadH1 = styled.h1`
  font-size: 36px;
             font-weight: 600;
             text-align: center;
-            margin-bottom: 20px;
+            padding-bottom: 20px;
+    color: #333;
 `
 
 

@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+
 import Link from 'next/link';
-import { stickyHeader } from '~/utilities/common-helpers';
-import { Drawer, Button, Radio, Space } from 'antd';
 import Router from 'next/router';
-import { logout } from '~/app/features/auth/slice';
+import { useSelector, useDispatch } from 'react-redux';
+import { Drawer, Button, Radio, Space } from 'antd';
+
+
+import { stickyHeader } from '~/utilities/common-helpers';
 import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';
-import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app/slice';
 import { Link as LinkScroll } from 'react-scroll'
 import logo from '~/public/static/img/logo/logo.png'
 import mobile_menu from '~/public/static/img/icons/mobile_menu.png'
+
+
 const HeaderDefault = () => {
 	const [profileDrawer, setProfileDrawer] = useState(false);
 
@@ -78,15 +81,15 @@ const HeaderDefault = () => {
 			>
 				<div className='profile-drawer__bottom'>
 					<div className='profile-drawer__bottom-grid'>
-						<div className='bottom-grid__item' >
-							<span>Pricing</span>
+						<div className='bottom-grid__item' onClick={() => { setProfileDrawer(!profileDrawer); }} >
+							<span >Pricing</span>
 						</div>
-						<div className='bottom-grid__item' >
+						<div className='bottom-grid__item' onClick={() => { setProfileDrawer(!profileDrawer); }} >
 							<span>Login</span>
 						</div>
-						<div className='bottom-grid__item' >
+						<div className='bottom-grid__item'>
 							<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
-								<button className="ps-btn">
+								<button className="ps-btn"  onClick={() => { setProfileDrawer(!profileDrawer); }}>
 									Request a Demo
 								</button>
 							</LinkScroll>
