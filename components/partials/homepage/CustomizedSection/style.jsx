@@ -211,7 +211,7 @@ export const QuoteWrapperTitle = styled.div`
             font-size: 18px;
         }
     }
-
+    
     @media only screen and (max-width: 1366px) {
         h5 {
             font-size: 16px;

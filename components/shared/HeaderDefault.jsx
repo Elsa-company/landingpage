@@ -9,7 +9,9 @@ import { isClickMenu, onChangeTabs } from '~/app/features/app/slice';
 import { setModalVisibleLogin, setModalVisibleJoinNow } from '~/app/features/app/slice';
 import { Link as LinkScroll } from 'react-scroll'
 import logo from '~/public/static/img/logo/logo.png'
+import mobile_menu from '~/public/static/img/icons/mobile_menu.png'
 const HeaderDefault = () => {
+	const [profileDrawer, setProfileDrawer] = useState(false);
 
 	useEffect(() => {
 		if (process.browser) {
@@ -57,11 +59,41 @@ const HeaderDefault = () => {
 					</div>
 					<div className="header-container-mobile__right">
 						<div className="header-menu">
-							
+
+							<img src={mobile_menu} alt="Logo elsa mobile menu" height={25} onClick={() => { setProfileDrawer(!profileDrawer); }} />
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<Drawer
+				title='Basic Drawer'
+				placement='right'
+				closable={false}
+				onClose={() => setProfileDrawer(false)}
+				visible={profileDrawer}
+				key='right'
+				className='profile-drawer'
+				headerStyle={{ display: 'none' }}
+			>
+				<div className='profile-drawer__bottom'>
+					<div className='profile-drawer__bottom-grid'>
+						<div className='bottom-grid__item' >
+							<span>Pricing</span>
+						</div>
+						<div className='bottom-grid__item' >
+							<span>Login</span>
+						</div>
+						<div className='bottom-grid__item' >
+							<LinkScroll to="request-demo" spy={true} smooth={true} offset={-100} duration={1500}>
+								<button className="ps-btn">
+									Request a Demo
+								</button>
+							</LinkScroll>
+						</div>
+					</div>
+				</div>
+			</Drawer>
 		</header>
 	);
 };

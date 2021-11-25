@@ -137,6 +137,7 @@
 
 @media only screen and (max-width: 560px) {
 	.header {
+		padding: 15px 0;
 		.header-container {
 			display: none;
 		}
@@ -144,7 +145,7 @@
 		.header-container-mobile {
 			display: flex;
 			justify-content: space-between;
-
+			align-items: center;
 			&__left {
 				// max-width: 300px;
 			}
