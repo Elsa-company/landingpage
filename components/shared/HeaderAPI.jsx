@@ -15,6 +15,7 @@ import japan from '~/public/static/img/icons/japan.png'
 import indonesia from '~/public/static/img/icons/indonesia.png'
 import portugal from '~/public/static/img/icons/portugal.png'
 import spain from '~/public/static/img/icons/spain.png'
+import unitedKingdom from '~/public/static/img/icons/united-kingdom.png'
 
 const HeaderDefault = () => {
 
@@ -23,22 +24,25 @@ const HeaderDefault = () => {
 			window.addEventListener('scroll', stickyHeader);
 		}
 	}, []);
+
 	function handleMenuClick(e) {
-		message.info('Click on menu item.');
-		console.log('click', e);
+		
 	  }
 	const menu = (
 		<Menu onClick={handleMenuClick}>
-			<Menu.Item key="1" icon={<img src={japan} alt="japan logo" />}>
+			<Menu.Item key="1" icon={<img src={unitedKingdom} alt="japan logo" />}>
+				English
+			</Menu.Item>
+			<Menu.Item key="2" icon={<img src={japan} alt="japan logo" />}>
 				Japanese
 			</Menu.Item>
-			<Menu.Item key="2" icon={<img src={portugal} alt="portugal logo" />}>
+			<Menu.Item key="3" icon={<img src={portugal} alt="portugal logo" />}>
 			Portugese
 			</Menu.Item>
-			<Menu.Item key="3" icon={<img src={spain} alt="spain logo" />}>
+			<Menu.Item key="4" icon={<img src={spain} alt="spain logo" />}>
 			Spanish
 			</Menu.Item>
-			<Menu.Item key="3" icon={<img src={indonesia} alt="indonesia logo" />}>
+			<Menu.Item key="5" icon={<img src={indonesia} alt="indonesia logo" />}>
 			Indonesian
 			</Menu.Item>
 		</Menu>
@@ -79,12 +83,11 @@ const HeaderDefault = () => {
 										Request API Key
 									</button>
 								</LinkScroll>
-
 							</div>
 							<div className="menu-item">
 								<Dropdown overlay={menu}>
 									<Button>
-										<img src={japan} alt="japan logo" height={16} /> <DownOutlined />
+										<img src={unitedKingdom} alt="japan logo" height={16} /> ENG <DownOutlined />
 									</Button>
 								</Dropdown>
 							</div>
